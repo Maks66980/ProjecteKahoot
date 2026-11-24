@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="draw.io" version="24.7.17" type="device" compressed="false" pages="1">
+  <diagram id="mockups-unica-pagina" name="Mockups">
+    <mxGraphModel dx="1280" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3840" pageHeight="3600" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pantalla_01" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="1280" height="900" />
+        </mxCell>
+        <mxCell id="p01_c2" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_01">
+          <mxGeometry as="geometry" x="40" y="40" width="1200" height="820" />
+        </mxCell>
+        <mxCell id="p01_c3" value="01 / Menú principal" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_01">
+          <mxGeometry as="geometry" x="64" y="52" width="1152" height="28" />
+        </mxCell>
+        <mxCell id="p01_c4" value="KaHoOt" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=32;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_01">
+          <mxGeometry as="geometry" x="140" y="94" width="1000" height="46" />
+        </mxCell>
+        <mxCell id="p01_c5" value="Juga, aprèn i supera la teva millor puntuació." style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=20;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_01">
+          <mxGeometry as="geometry" x="140" y="146" width="1000" height="32" />
+        </mxCell>
+        <mxCell id="p01_c6" value="Jugar" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=26;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_01">
+          <mxGeometry as="geometry" x="230" y="290" width="360" height="88" />
+        </mxCell>
+        <mxCell id="p01_c7" value="Classificacions" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=26;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_01">
+          <mxGeometry as="geometry" x="690" y="290" width="360" height="88" />
+        </mxCell>
+        <mxCell id="p01_c8" value="Crear un kahoot" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=26;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_01">
+          <mxGeometry as="geometry" x="230" y="425" width="360" height="88" />
+        </mxCell>
+        <mxCell id="p01_c9" value="Informes" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=26;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_01">
+          <mxGeometry as="geometry" x="690" y="425" width="360" height="88" />
+        </mxCell>
+        <mxCell id="p01_c10" value="Sobre el projecte" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_01">
+          <mxGeometry as="geometry" x="290" y="640" width="300" height="56" />
+        </mxCell>
+        <mxCell id="p01_c11" value="Sortir" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_01">
+          <mxGeometry as="geometry" x="690" y="640" width="300" height="56" />
+        </mxCell>
+        <mxCell id="pantalla_02" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1280" y="0" width="1280" height="900" />
+        </mxCell>
+        <mxCell id="p02_c2" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_02">
+          <mxGeometry as="geometry" x="40" y="40" width="1200" height="820" />
+        </mxCell>
+        <mxCell id="p02_c3" value="02 / Selector de qüestionaris" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_02">
+          <mxGeometry as="geometry" x="64" y="52" width="1152" height="28" />
+        </mxCell>
+        <mxCell id="p02_c4" value="Tria el teu repte" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=32;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_02">
+          <mxGeometry as="geometry" x="140" y="94" width="1000" height="46" />
+        </mxCell>
+        <mxCell id="p02_c5" value="Escriu el teu nom i selecciona un qüestionari." style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=20;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_02">
+          <mxGeometry as="geometry" x="140" y="146" width="1000" height="32" />
+        </mxCell>
+        <mxCell id="p02_c6" value="Nom del jugador: Maksym" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_02">
+          <mxGeometry as="geometry" x="140" y="205" width="760" height="54" />
+        </mxCell>
+        <mxCell id="p02_c7" value="Actualitzar llista" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=20;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_02">
+          <mxGeometry as="geometry" x="925" y="205" width="215" height="54" />
+        </mxCell>
+        <mxCell id="p02_c8" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_02">
+          <mxGeometry as="geometry" x="140" y="295" width="1000" height="410" />
+        </mxCell>
+        <mxCell id="p02_c9" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_02">
+          <mxGeometry as="geometry" x="1118" y="305" width="12" height="390" />
+        </mxCell>
+        <mxCell id="p02_c10" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_02">
+          <mxGeometry as="geometry" x="1118" y="315" width="12" height="85" />
+        </mxCell>
+        <mxCell id="p02_c11" value="Cultura general — 3 preguntes" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_02">
+          <mxGeometry as="geometry" x="165" y="320" width="925" height="78" />
+        </mxCell>
+        <mxCell id="p02_c12" value="Geografia — 5 preguntes" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_02">
+          <mxGeometry as="geometry" x="165" y="425" width="925" height="78" />
+        </mxCell>
+        <mxCell id="p02_c13" value="Cinema — 4 preguntes" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_02">
+          <mxGeometry as="geometry" x="165" y="530" width="925" height="78" />
+        </mxCell>
+        <mxCell id="p02_c14" value="Seleccionat: Cultura general" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=21;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_02">
+          <mxGeometry as="geometry" x="140" y="724" width="1000" height="34" />
+        </mxCell>
+        <mxCell id="p02_c15" value="Tornar al menú" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=21;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_02">
+          <mxGeometry as="geometry" x="140.0" y="786" width="314.6666666666667" height="50" />
+        </mxCell>
+        <mxCell id="p02_c16" value="Veure classificació" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=21;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_02">
+          <mxGeometry as="geometry" x="482.6666666666667" y="786" width="314.6666666666667" height="50" />
+        </mxCell>
+        <mxCell id="p02_c17" value="Jugar" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=21;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_02">
+          <mxGeometry as="geometry" x="825.3333333333334" y="786" width="314.6666666666667" height="50" />
+        </mxCell>
+        <mxCell id="pantalla_03" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2560" y="0" width="1280" height="900" />
+        </mxCell>
+        <mxCell id="p03_c2" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_03">
+          <mxGeometry as="geometry" x="40" y="40" width="1200" height="820" />
+        </mxCell>
+        <mxCell id="p03_c3" value="03 / Pantalla de pregunta" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_03">
+          <mxGeometry as="geometry" x="64" y="52" width="1152" height="28" />
+        </mxCell>
+        <mxCell id="p03_c4" value="KaHoOt" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=32;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_03">
+          <mxGeometry as="geometry" x="140" y="94" width="1000" height="46" />
+        </mxCell>
+        <mxCell id="p03_c5" value="Pregunta 1 / 3" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_03">
+          <mxGeometry as="geometry" x="140" y="180" width="330" height="36" />
+        </mxCell>
+        <mxCell id="p03_c6" value="Temps: 20 s" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=23;fontColor=#000000;fontStyle=0;align=right;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_03">
+          <mxGeometry as="geometry" x="810" y="180" width="330" height="36" />
+        </mxCell>
+        <mxCell id="p03_c7" value="Quin és el planeta més gran?" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=30;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_03">
+          <mxGeometry as="geometry" x="180" y="255" width="920" height="125" />
+        </mxCell>
+        <mxCell id="p03_c8" value="Mart" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=25;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_03">
+          <mxGeometry as="geometry" x="180" y="430" width="430" height="76" />
+        </mxCell>
+        <mxCell id="p03_c9" value="Júpiter" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=25;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_03">
+          <mxGeometry as="geometry" x="670" y="430" width="430" height="76" />
+        </mxCell>
+        <mxCell id="p03_c10" value="Saturn" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=25;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_03">
+          <mxGeometry as="geometry" x="180" y="555" width="430" height="76" />
+        </mxCell>
+        <mxCell id="p03_c11" value="Venus" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=25;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_03">
+          <mxGeometry as="geometry" x="670" y="555" width="430" height="76" />
+        </mxCell>
+        <mxCell id="p03_c12" value="Tornar al menú" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=21;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_03">
+          <mxGeometry as="geometry" x="140.0" y="786" width="1000.0" height="50" />
+        </mxCell>
+        <mxCell id="pantalla_04" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="900" width="1280" height="900" />
+        </mxCell>
+        <mxCell id="p04_c2" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_04">
+          <mxGeometry as="geometry" x="40" y="40" width="1200" height="820" />
+        </mxCell>
+        <mxCell id="p04_c3" value="04 / Punts després de respondre" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_04">
+          <mxGeometry as="geometry" x="64" y="52" width="1152" height="28" />
+        </mxCell>
+        <mxCell id="p04_c4" value="Puntuació" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=32;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_04">
+          <mxGeometry as="geometry" x="140" y="94" width="1000" height="46" />
+        </mxCell>
+        <mxCell id="p04_c5" value="Correcte!" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=28;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_04">
+          <mxGeometry as="geometry" x="140" y="204" width="1000" height="50" />
+        </mxCell>
+        <mxCell id="p04_c6" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_04">
+          <mxGeometry as="geometry" x="260" y="285" width="760" height="290" />
+        </mxCell>
+        <mxCell id="p04_c7" value="+850 punts" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=38;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_04">
+          <mxGeometry as="geometry" x="290" y="330" width="700" height="65" />
+        </mxCell>
+        <mxCell id="p04_c8" value="Total: 1850 punts" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=28;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_04">
+          <mxGeometry as="geometry" x="290" y="442" width="700" height="52" />
+        </mxCell>
+        <mxCell id="p04_c9" value="La següent pregunta apareix automàticament&#10;al cap de 7 segons." style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=23;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_04">
+          <mxGeometry as="geometry" x="210" y="640" width="860" height="84" />
+        </mxCell>
+        <mxCell id="pantalla_05" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1280" y="900" width="1280" height="900" />
+        </mxCell>
+        <mxCell id="p05_c2" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_05">
+          <mxGeometry as="geometry" x="40" y="40" width="1200" height="820" />
+        </mxCell>
+        <mxCell id="p05_c3" value="05 / Resultat final" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_05">
+          <mxGeometry as="geometry" x="64" y="52" width="1152" height="28" />
+        </mxCell>
+        <mxCell id="p05_c4" value="Partida acabada" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=32;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_05">
+          <mxGeometry as="geometry" x="140" y="94" width="1000" height="46" />
+        </mxCell>
+        <mxCell id="p05_c5" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_05">
+          <mxGeometry as="geometry" x="250" y="255" width="780" height="330" />
+        </mxCell>
+        <mxCell id="p05_c6" value="Total: 2735 punts" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=36;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_05">
+          <mxGeometry as="geometry" x="280" y="325" width="720" height="64" />
+        </mxCell>
+        <mxCell id="p05_c7" value="Temps total: 6,9 s" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=28;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_05">
+          <mxGeometry as="geometry" x="280" y="452" width="720" height="55" />
+        </mxCell>
+        <mxCell id="p05_c8" value="Tornar al menú" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=21;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_05">
+          <mxGeometry as="geometry" x="140.0" y="786" width="1000.0" height="50" />
+        </mxCell>
+        <mxCell id="pantalla_06" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2560" y="900" width="1280" height="900" />
+        </mxCell>
+        <mxCell id="p06_c2" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="40" y="40" width="1200" height="820" />
+        </mxCell>
+        <mxCell id="p06_c3" value="06 / Classificacions" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="64" y="52" width="1152" height="28" />
+        </mxCell>
+        <mxCell id="p06_c4" value="Classificació" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=32;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="140" y="94" width="1000" height="46" />
+        </mxCell>
+        <mxCell id="p06_c5" value="Tria un qüestionari per veure els resultats." style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=20;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="140" y="146" width="1000" height="32" />
+        </mxCell>
+        <mxCell id="p06_c6" value="Qüestionari: Cultura general                         v" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="140" y="205" width="1000" height="55" />
+        </mxCell>
+        <mxCell id="p06_c7" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="140" y="305" width="1000" height="395" />
+        </mxCell>
+        <mxCell id="p06_c8" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="1118" y="315" width="12" height="375" />
+        </mxCell>
+        <mxCell id="p06_c9" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="1118" y="325" width="12" height="85" />
+        </mxCell>
+        <mxCell id="p06_c10" value="Posició" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=1;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="165" y="325" width="110" height="40" />
+        </mxCell>
+        <mxCell id="p06_c11" value="Jugador" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=1;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="290" y="325" width="360" height="40" />
+        </mxCell>
+        <mxCell id="p06_c12" value="Punts" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=1;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="700" y="325" width="170" height="40" />
+        </mxCell>
+        <mxCell id="p06_c13" value="Temps" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=1;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="925" y="325" width="145" height="40" />
+        </mxCell>
+        <mxCell id="p06_c14" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="160" y="405" width="935" height="80" />
+        </mxCell>
+        <mxCell id="p06_c15" value="1" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="175" y="420" width="80" height="45" />
+        </mxCell>
+        <mxCell id="p06_c16" value="Izan" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="290" y="420" width="360" height="45" />
+        </mxCell>
+        <mxCell id="p06_c17" value="2923" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="700" y="420" width="170" height="45" />
+        </mxCell>
+        <mxCell id="p06_c18" value="2,3 s" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="925" y="420" width="145" height="45" />
+        </mxCell>
+        <mxCell id="p06_c19" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="160" y="515" width="935" height="80" />
+        </mxCell>
+        <mxCell id="p06_c20" value="2" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="175" y="530" width="80" height="45" />
+        </mxCell>
+        <mxCell id="p06_c21" value="Maksym" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="290" y="530" width="360" height="45" />
+        </mxCell>
+        <mxCell id="p06_c22" value="2735" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="700" y="530" width="170" height="45" />
+        </mxCell>
+        <mxCell id="p06_c23" value="6,9 s" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="925" y="530" width="145" height="45" />
+        </mxCell>
+        <mxCell id="p06_c24" value="Tornar al menú" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=21;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_06">
+          <mxGeometry as="geometry" x="140.0" y="786" width="1000.0" height="50" />
+        </mxCell>
+        <mxCell id="pantalla_07" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="1800" width="1280" height="900" />
+        </mxCell>
+        <mxCell id="p07_c2" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="40" y="40" width="1200" height="820" />
+        </mxCell>
+        <mxCell id="p07_c3" value="07 / Creador de qüestionaris" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="64" y="52" width="1152" height="28" />
+        </mxCell>
+        <mxCell id="p07_c4" value="Crear un kahoot" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=32;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="140" y="94" width="1000" height="46" />
+        </mxCell>
+        <mxCell id="p07_c5" value="Escriu el títol i afegeix les preguntes." style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=20;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="140" y="146" width="1000" height="32" />
+        </mxCell>
+        <mxCell id="p07_c6" value="Nom del qüestionari..." style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=21;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="140" y="190" width="1000" height="48" />
+        </mxCell>
+        <mxCell id="p07_c7" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="140" y="258" width="1000" height="468" />
+        </mxCell>
+        <mxCell id="p07_c8" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="1118" y="268" width="12" height="448" />
+        </mxCell>
+        <mxCell id="p07_c9" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="1118" y="278" width="12" height="85" />
+        </mxCell>
+        <mxCell id="p07_c10" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="160" y="273" width="935" height="430" />
+        </mxCell>
+        <mxCell id="p07_c11" value="Pregunta 1" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=21;fontColor=#000000;fontStyle=1;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="180" y="280" width="895" height="30" />
+        </mxCell>
+        <mxCell id="p07_c12" value="Enunciat de la pregunta..." style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=20;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="180" y="318" width="895" height="40" />
+        </mxCell>
+        <mxCell id="p07_c13" value="Resposta 1..." style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=20;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="180" y="368" width="895" height="36" />
+        </mxCell>
+        <mxCell id="p07_c14" value="Resposta 2..." style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=20;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="180" y="412" width="895" height="36" />
+        </mxCell>
+        <mxCell id="p07_c15" value="Resposta 3..." style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=20;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="180" y="456" width="895" height="36" />
+        </mxCell>
+        <mxCell id="p07_c16" value="Resposta 4..." style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=20;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="180" y="500" width="895" height="36" />
+        </mxCell>
+        <mxCell id="p07_c17" value="Correcta: resposta 1                                  v" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=20;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="180" y="548" width="895" height="36" />
+        </mxCell>
+        <mxCell id="p07_c18" value="Durada (segons)" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="180" y="592" width="895" height="26" />
+        </mxCell>
+        <mxCell id="p07_c19" value="20" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=20;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="180" y="624" width="895" height="32" />
+        </mxCell>
+        <mxCell id="p07_c20" value="Eliminar pregunta" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="180" y="664" width="895" height="30" />
+        </mxCell>
+        <mxCell id="p07_c21" value="Tornar al menú" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=21;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="140.0" y="786" width="314.6666666666667" height="50" />
+        </mxCell>
+        <mxCell id="p07_c22" value="Afegir pregunta" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=21;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="482.6666666666667" y="786" width="314.6666666666667" height="50" />
+        </mxCell>
+        <mxCell id="p07_c23" value="Guardar kahoot" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=21;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_07">
+          <mxGeometry as="geometry" x="825.3333333333334" y="786" width="314.6666666666667" height="50" />
+        </mxCell>
+        <mxCell id="pantalla_08" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1280" y="1800" width="1280" height="900" />
+        </mxCell>
+        <mxCell id="p08_c2" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_08">
+          <mxGeometry as="geometry" x="40" y="40" width="1200" height="820" />
+        </mxCell>
+        <mxCell id="p08_c3" value="08 / Llista d’informes" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_08">
+          <mxGeometry as="geometry" x="64" y="52" width="1152" height="28" />
+        </mxCell>
+        <mxCell id="p08_c4" value="Informes" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=32;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_08">
+          <mxGeometry as="geometry" x="140" y="94" width="1000" height="46" />
+        </mxCell>
+        <mxCell id="p08_c5" value="Selecciona un informe per consultar-ne el contingut." style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=20;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_08">
+          <mxGeometry as="geometry" x="140" y="146" width="1000" height="32" />
+        </mxCell>
+        <mxCell id="p08_c6" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_08">
+          <mxGeometry as="geometry" x="140" y="245" width="1000" height="455" />
+        </mxCell>
+        <mxCell id="p08_c7" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_08">
+          <mxGeometry as="geometry" x="1118" y="255" width="12" height="435" />
+        </mxCell>
+        <mxCell id="p08_c8" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_08">
+          <mxGeometry as="geometry" x="1118" y="265" width="12" height="85" />
+        </mxCell>
+        <mxCell id="p08_c9" value="Informe JSON&#10;23/11/2026 10:30" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_08">
+          <mxGeometry as="geometry" x="165" y="275" width="925" height="95" />
+        </mxCell>
+        <mxCell id="p08_c10" value="Informe XML&#10;23/11/2026 10:35" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_08">
+          <mxGeometry as="geometry" x="165" y="405" width="925" height="95" />
+        </mxCell>
+        <mxCell id="p08_c11" value="Informe de carpeta&#10;23/11/2026 10:40" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_08">
+          <mxGeometry as="geometry" x="165" y="535" width="925" height="95" />
+        </mxCell>
+        <mxCell id="p08_c12" value="Tornar al menú" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=21;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_08">
+          <mxGeometry as="geometry" x="140.0" y="786" width="1000.0" height="50" />
+        </mxCell>
+        <mxCell id="pantalla_09" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2560" y="1800" width="1280" height="900" />
+        </mxCell>
+        <mxCell id="p09_c2" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_09">
+          <mxGeometry as="geometry" x="40" y="40" width="1200" height="820" />
+        </mxCell>
+        <mxCell id="p09_c3" value="09 / Visor d’un informe" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_09">
+          <mxGeometry as="geometry" x="64" y="52" width="1152" height="28" />
+        </mxCell>
+        <mxCell id="p09_c4" value="Contingut de l’informe" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=32;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_09">
+          <mxGeometry as="geometry" x="140" y="94" width="1000" height="46" />
+        </mxCell>
+        <mxCell id="p09_c5" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_09">
+          <mxGeometry as="geometry" x="140" y="220" width="1000" height="485" />
+        </mxCell>
+        <mxCell id="p09_c6" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_09">
+          <mxGeometry as="geometry" x="1118" y="230" width="12" height="465" />
+        </mxCell>
+        <mxCell id="p09_c7" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_09">
+          <mxGeometry as="geometry" x="1118" y="240" width="12" height="85" />
+        </mxCell>
+        <mxCell id="p09_c8" value="INFORME DE ERROR&#10;&#10;Fecha y hora: 23/11/2026 10:30&#10;Operación: Leer el cuestionario&#10;Tipo de error: ArgumentException&#10;Mensaje: JSON incorrecto&#10;&#10;Detalle de la excepción:&#10;..." style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_09">
+          <mxGeometry as="geometry" x="175" y="255" width="905" height="380" />
+        </mxCell>
+        <mxCell id="p09_c9" value="Tornar als informes" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=21;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_09">
+          <mxGeometry as="geometry" x="140.0" y="786" width="1000.0" height="50" />
+        </mxCell>
+        <mxCell id="pantalla_10" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="2700" width="1280" height="900" />
+        </mxCell>
+        <mxCell id="p10_c2" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_10">
+          <mxGeometry as="geometry" x="40" y="40" width="1200" height="820" />
+        </mxCell>
+        <mxCell id="p10_c3" value="10 / About" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_10">
+          <mxGeometry as="geometry" x="64" y="52" width="1152" height="28" />
+        </mxCell>
+        <mxCell id="p10_c4" value="Sobre el projecte" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=32;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_10">
+          <mxGeometry as="geometry" x="140" y="94" width="1000" height="46" />
+        </mxCell>
+        <mxCell id="p10_c5" value="KaHoOt" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=20;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_10">
+          <mxGeometry as="geometry" x="140" y="146" width="1000" height="32" />
+        </mxCell>
+        <mxCell id="p10_c6" value="" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_10">
+          <mxGeometry as="geometry" x="210" y="235" width="860" height="405" />
+        </mxCell>
+        <mxCell id="p10_c7" value="Projecte educatiu de qüestionaris&#10;desenvolupat amb Unity.&#10;&#10;Autor: Maksym&#10;&#10;Crea qüestionaris, juga i consulta&#10;les classificacions.&#10;&#10;Cada resposta compta!" style="text;rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=25;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=none;strokeColor=none;" vertex="1" parent="pantalla_10">
+          <mxGeometry as="geometry" x="240" y="270" width="800" height="335" />
+        </mxCell>
+        <mxCell id="p10_c8" value="Tornar al menú" style="rounded=0;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=21;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="pantalla_10">
+          <mxGeometry as="geometry" x="140.0" y="786" width="1000.0" height="50" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

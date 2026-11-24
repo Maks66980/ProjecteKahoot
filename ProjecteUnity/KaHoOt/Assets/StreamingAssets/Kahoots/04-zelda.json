@@ -1,0 +1,116 @@
+{
+  "id": "inicial-04-zelda",
+  "titulo": "The Legend of Zelda",
+  "preguntas": [
+    {
+      "enunciado": "Com es diu l'heroi que sol portar espasa i escut?",
+      "respuestas": [
+        "Mario",
+        "Link",
+        "Red",
+        "Sonic"
+      ],
+      "respuestaCorrecta": 1,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Com s'anomena el regne on passen moltes aventures de la saga?",
+      "respuestas": [
+        "El Regne dels Bolets",
+        "Hyrule",
+        "Kanto",
+        "Green Hill"
+      ],
+      "respuestaCorrecta": 1,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quina princesa dona nom a la saga?",
+      "respuestas": [
+        "Zelda",
+        "Daisy",
+        "Amy",
+        "Peach"
+      ],
+      "respuestaCorrecta": 0,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin d'aquests és un antagonista recurrent de la saga?",
+      "respuestas": [
+        "Team Rocket",
+        "Bowser",
+        "Ganondorf",
+        "Dr. Eggman"
+      ],
+      "respuestaCorrecta": 2,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quina espasa és especialment coneguda en les aventures de Link?",
+      "respuestas": [
+        "Una espasa làser Jedi",
+        "L'espasa del rei Artús",
+        "L'espasa de diamant de Minecraft",
+        "L'Espasa Mestra"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quants triangles formen el símbol de la Triforça?",
+      "respuestas": [
+        "6",
+        "4",
+        "2",
+        "3"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quina moneda és habitual en els jocs de Zelda?",
+      "respuestas": [
+        "Els anells",
+        "Els V-Bucks",
+        "Les Poké Balls",
+        "Les rupies"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Què representen els cors de Link?",
+      "respuestas": [
+        "La salut",
+        "El nombre de mapes",
+        "La velocitat",
+        "La quantitat de fletxes"
+      ],
+      "respuestaCorrecta": 0,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin objecte ajuda Link a bloquejar atacs?",
+      "respuestas": [
+        "La bossa de bombes",
+        "La brúixola",
+        "La cartera",
+        "L'escut"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin instrument té un paper central a Ocarina of Time?",
+      "respuestas": [
+        "L'ocarina",
+        "La guitarra elèctrica",
+        "El piano",
+        "El tambor"
+      ],
+      "respuestaCorrecta": 0,
+      "duracionSegundos": 20
+    }
+  ]
+}

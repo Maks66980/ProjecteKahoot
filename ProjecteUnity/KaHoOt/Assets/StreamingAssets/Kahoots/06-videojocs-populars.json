@@ -1,0 +1,116 @@
+{
+  "id": "inicial-06-videojocs-populars",
+  "titulo": "Videojocs populars",
+  "preguntas": [
+    {
+      "enunciado": "Quina combinació descriu Rocket League?",
+      "respuestas": [
+        "Golf amb bicicletes",
+        "Escacs amb avions",
+        "Tennis amb vaixells",
+        "Futbol amb cotxes"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin paper intenta sabotejar la tripulació en secret a Among Us?",
+      "respuestas": [
+        "L'impostor",
+        "L'àrbitre",
+        "El narrador",
+        "El comerciant"
+      ],
+      "respuestaCorrecta": 0,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quins enemics persegueixen Pac-Man pel laberint?",
+      "respuestas": [
+        "Dracs",
+        "Fantasmes",
+        "Taurons",
+        "Robots gegants"
+      ],
+      "respuestaCorrecta": 1,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quants quadrats formen cadascuna de les set peces clàssiques de Tetris?",
+      "respuestas": [
+        "3",
+        "5",
+        "6",
+        "4"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quina activitat és central a Stardew Valley?",
+      "respuestas": [
+        "Conduir trens d'alta velocitat",
+        "Pilotar avions de combat",
+        "Jugar partides de futbol",
+        "Gestionar una granja"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Què permet crear la pistola de portals a Portal?",
+      "respuestas": [
+        "Karts",
+        "Poké Balls",
+        "Peces de Tetris",
+        "Portals connectats entre si"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin vehicle porta els jugadors al mapa al començament de moltes partides de Fortnite Battle Royale?",
+      "respuestas": [
+        "Un cotxe de policia",
+        "L'autobús de batalla",
+        "Un submarí",
+        "Un tren subterrani"
+      ],
+      "respuestaCorrecta": 1,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "A Animal Crossing, què són principalment els veïns del jugador?",
+      "respuestas": [
+        "Animals amb trets humans",
+        "Peces geomètriques",
+        "Robots industrials",
+        "Cotxes de curses"
+      ],
+      "respuestaCorrecta": 0,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Què fan servir els jugadors per pintar el terreny a Splatoon?",
+      "respuestas": [
+        "Lava",
+        "Farina",
+        "Tinta",
+        "Oli"
+      ],
+      "respuestaCorrecta": 2,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin tipus de proves caracteritza Fall Guys?",
+      "respuestas": [
+        "Problemes d'escacs",
+        "Curses i obstacles",
+        "Partides de billar",
+        "Simulacions de trànsit"
+      ],
+      "respuestaCorrecta": 1,
+      "duracionSegundos": 20
+    }
+  ]
+}

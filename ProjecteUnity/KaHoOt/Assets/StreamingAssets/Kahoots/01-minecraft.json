@@ -1,0 +1,116 @@
+{
+  "id": "inicial-01-minecraft",
+  "titulo": "Minecraft",
+  "preguntas": [
+    {
+      "enunciado": "Quin enemic verd s'apropa al jugador i explota?",
+      "respuestas": [
+        "L'enderman",
+        "El creeper",
+        "L'esquelet",
+        "El zombi"
+      ],
+      "respuestaCorrecta": 1,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin material forma el marc d'un portal al Nether?",
+      "respuestas": [
+        "Fusta",
+        "Vidre",
+        "Terra",
+        "Obsidiana"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin mob alt i negre es pot teletransportar?",
+      "respuestas": [
+        "L'ovella",
+        "L'enderman",
+        "El creeper",
+        "El porc"
+      ],
+      "respuestaCorrecta": 1,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quina eina és la més adequada per extreure pedra i minerals?",
+      "respuestas": [
+        "Les tisores",
+        "La pala",
+        "La canya de pescar",
+        "El pic"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Què representen els cors del jugador?",
+      "respuestas": [
+        "L'experiència",
+        "La gana",
+        "La salut",
+        "La velocitat"
+      ],
+      "respuestaCorrecta": 2,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin bloc ofereix una graella de fabricació de 3 × 3?",
+      "respuestas": [
+        "El llit",
+        "El cofre",
+        "El forn",
+        "La taula de fabricació"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "A quina dimensió viu l'Ender Dragon?",
+      "respuestas": [
+        "A qualsevol poble",
+        "A l'End",
+        "Al fons de l'oceà",
+        "Al Nether"
+      ],
+      "respuestaCorrecta": 1,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin bloc es fa servir habitualment per fondre minerals?",
+      "respuestas": [
+        "El forn",
+        "La biblioteca",
+        "La tanca",
+        "La catifa"
+      ],
+      "respuestaCorrecta": 0,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin animal de Minecraft proporciona llana quan el tallem amb tisores?",
+      "respuestas": [
+        "El porc",
+        "L'ovella",
+        "El cavall",
+        "La gallina"
+      ],
+      "respuestaCorrecta": 1,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin mode se centra a obtenir recursos i sobreviure?",
+      "respuestas": [
+        "El menú principal",
+        "Creatiu",
+        "Supervivència",
+        "Espectador"
+      ],
+      "respuestaCorrecta": 2,
+      "duracionSegundos": 20
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "inicial-03-pokemon",
+  "titulo": "Pokémon",
+  "preguntas": [
+    {
+      "enunciado": "De quin tipus és Pikachu?",
+      "respuestas": [
+        "Elèctric",
+        "Foc",
+        "Gel",
+        "Aigua"
+      ],
+      "respuestaCorrecta": 0,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "De quin tipus és Charmander?",
+      "respuestas": [
+        "Foc",
+        "Aigua",
+        "Planta",
+        "Roca"
+      ],
+      "respuestaCorrecta": 0,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "De quin tipus és Squirtle?",
+      "respuestas": [
+        "Elèctric",
+        "Foc",
+        "Lluita",
+        "Aigua"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quina combinació de tipus té Bulbasaur?",
+      "respuestas": [
+        "Planta i verí",
+        "Foc i volador",
+        "Roca i terra",
+        "Aigua i gel"
+      ],
+      "respuestaCorrecta": 0,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin objecte es fa servir per capturar Pokémon?",
+      "respuestas": [
+        "Una bicicleta",
+        "Una corda fugida",
+        "Una poció",
+        "Una Poké Ball"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin dispositiu registra informació sobre els Pokémon?",
+      "respuestas": [
+        "El mapa",
+        "La medalla",
+        "La Pokédex",
+        "La motxilla"
+      ],
+      "respuestaCorrecta": 2,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "On es poden recuperar habitualment els Pokémon de l'equip?",
+      "respuestas": [
+        "En un museu",
+        "En una botiga de bicicletes",
+        "En una sala de concursos",
+        "En un Centre Pokémon"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "En quin Pokémon evoluciona Pikachu amb una pedra tro?",
+      "respuestas": [
+        "Pichu",
+        "Eevee",
+        "Meowth",
+        "Raichu"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin Pokémon és conegut per tenir moltes evolucions diferents?",
+      "respuestas": [
+        "Eevee",
+        "Ditto",
+        "Magikarp",
+        "Tauros"
+      ],
+      "respuestaCorrecta": 0,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin d'aquests Pokémon té aspecte de gat?",
+      "respuestas": [
+        "Meowth",
+        "Caterpie",
+        "Geodude",
+        "Psyduck"
+      ],
+      "respuestaCorrecta": 0,
+      "duracionSegundos": 20
+    }
+  ]
+}

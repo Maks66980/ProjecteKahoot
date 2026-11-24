@@ -1,0 +1,116 @@
+{
+  "id": "inicial-05-sonic",
+  "titulo": "Sonic the Hedgehog",
+  "preguntas": [
+    {
+      "enunciado": "Quin animal és Sonic?",
+      "respuestas": [
+        "Un gat",
+        "Una guineu",
+        "Un eriçó",
+        "Un ratolí"
+      ],
+      "respuestaCorrecta": 2,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin color té Sonic habitualment?",
+      "respuestas": [
+        "Vermell",
+        "Groc",
+        "Blau",
+        "Verd"
+      ],
+      "respuestaCorrecta": 2,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Com es diu el company de Sonic que té dues cues?",
+      "respuestas": [
+        "Silver",
+        "Tails",
+        "Shadow",
+        "Knuckles"
+      ],
+      "respuestaCorrecta": 1,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin animal és Tails?",
+      "respuestas": [
+        "Un llop",
+        "Una guineu",
+        "Un eriçó",
+        "Un conill"
+      ],
+      "respuestaCorrecta": 1,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin enemic científic s'enfronta sovint a Sonic?",
+      "respuestas": [
+        "Dr. Eggman",
+        "Ganondorf",
+        "Dr. Mario",
+        "Bowser"
+      ],
+      "respuestaCorrecta": 0,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin objecte daurat recull Sonic durant les fases?",
+      "respuestas": [
+        "Estrelles de Mario",
+        "Rupies",
+        "Anells",
+        "Poké Balls"
+      ],
+      "respuestaCorrecta": 2,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin personatge vermell és un equidna?",
+      "respuestas": [
+        "Sonic",
+        "Tails",
+        "Amy",
+        "Knuckles"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin color té habitualment Super Sonic?",
+      "respuestas": [
+        "Violeta",
+        "Verd",
+        "Daurat",
+        "Negre"
+      ],
+      "respuestaCorrecta": 2,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Amb quin objecte s'associa habitualment Amy Rose?",
+      "respuestas": [
+        "Una espasa",
+        "Una guitarra",
+        "Un martell",
+        "Un arc"
+      ],
+      "respuestaCorrecta": 2,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quina companyia va crear Sonic?",
+      "respuestas": [
+        "SEGA",
+        "Nintendo",
+        "Mojang",
+        "Capcom"
+      ],
+      "respuestaCorrecta": 0,
+      "duracionSegundos": 20
+    }
+  ]
+}

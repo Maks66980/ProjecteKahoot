@@ -1,0 +1,116 @@
+{
+  "id": "inicial-02-super-mario",
+  "titulo": "Super Mario",
+  "preguntas": [
+    {
+      "enunciado": "Com es diu el germà de Mario?",
+      "respuestas": [
+        "Wario",
+        "Toad",
+        "Bowser",
+        "Luigi"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quina princesa governa el Regne dels Bolets?",
+      "respuestas": [
+        "Zelda",
+        "Peach",
+        "Rosalina",
+        "Pauline"
+      ],
+      "respuestaCorrecta": 1,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin personatge és un gran enemic recurrent de Mario?",
+      "respuestas": [
+        "Kirby",
+        "Bowser",
+        "Pikachu",
+        "Sonic"
+      ],
+      "respuestaCorrecta": 1,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin company de Mario té aspecte de dinosaure?",
+      "respuestas": [
+        "Luigi",
+        "Toad",
+        "Waluigi",
+        "Yoshi"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin objecte permet a Mario llançar boles de foc en molts jocs?",
+      "respuestas": [
+        "La closca verda",
+        "La flor de foc",
+        "La moneda",
+        "El bolet 1-Up"
+      ],
+      "respuestaCorrecta": 1,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Què proporciona habitualment una Superestrella?",
+      "respuestas": [
+        "Un kart nou",
+        "Invencibilitat temporal contra enemics",
+        "Un canvi de llengua",
+        "Un mapa del món"
+      ],
+      "respuestaCorrecta": 1,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin d'aquests enemics té aspecte de bolet marró?",
+      "respuestas": [
+        "Cheep Cheep",
+        "Goomba",
+        "Lakitu",
+        "Boo"
+      ],
+      "respuestaCorrecta": 1,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin color s'associa habitualment a la roba de Luigi?",
+      "respuestas": [
+        "Taronja",
+        "Verd",
+        "Vermell",
+        "Blau"
+      ],
+      "respuestaCorrecta": 1,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin tipus de joc és Mario Kart?",
+      "respuestas": [
+        "Un joc de curses",
+        "Un simulador de vol",
+        "Un joc de cartes",
+        "Un joc de futbol"
+      ],
+      "respuestaCorrecta": 0,
+      "duracionSegundos": 20
+    },
+    {
+      "enunciado": "Quin personatge porta una gorra vermella amb la lletra M?",
+      "respuestas": [
+        "Wario",
+        "Luigi",
+        "Toad",
+        "Mario"
+      ],
+      "respuestaCorrecta": 3,
+      "duracionSegundos": 20
+    }
+  ]
+}

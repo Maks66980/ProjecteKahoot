@@ -1,0 +1,1512 @@
+<mxfile host="Electron" agent="draw.io" compressed="false">
+  <diagram id="uml-kahoot-clases" name="UML de clases">
+    <mxGraphModel dx="9364" dy="6127" grid="0" gridSize="20" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5160" pageHeight="6740" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=34;fontColor=#000000;fontStyle=1;align=left;verticalAlign=top;spacing=0;" value="KaHoOt · Diagrama de clases UML" vertex="1">
+          <mxGeometry height="50" width="3400" x="80" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="package_0" parent="1" style="rounded=0;html=0;fillColor=none;strokeColor=#bbbbbb;dashed=1;dashPattern=4 4;strokeWidth=1;fontColor=#333333;fontFamily=Arial;fontSize=23;fontStyle=1;align=left;verticalAlign=top;spacingTop=12;spacingLeft=18;connectable=0;" value="Datos, contratos y mensajes" vertex="1">
+          <mxGeometry height="1880" width="2100" x="80" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="package_1" parent="1" style="rounded=0;html=0;fillColor=none;strokeColor=#bbbbbb;dashed=1;dashPattern=4 4;strokeWidth=1;fontColor=#333333;fontFamily=Arial;fontSize=23;fontStyle=1;align=left;verticalAlign=top;spacingTop=12;spacingLeft=18;connectable=0;" value="Acceso a datos y validación" vertex="1">
+          <mxGeometry height="1340" width="2100" x="2980" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="package_2" parent="1" style="rounded=0;html=0;fillColor=none;strokeColor=#bbbbbb;dashed=1;dashPattern=4 4;strokeWidth=1;fontColor=#333333;fontFamily=Arial;fontSize=23;fontStyle=1;align=left;verticalAlign=top;spacingTop=12;spacingLeft=18;connectable=0;" value="Selección, sesión y clasificación" vertex="1">
+          <mxGeometry height="2060" width="2100" x="80" y="2440" as="geometry" />
+        </mxCell>
+        <mxCell id="package_3" parent="1" style="rounded=0;html=0;fillColor=none;strokeColor=#bbbbbb;dashed=1;dashPattern=4 4;strokeWidth=1;fontColor=#333333;fontFamily=Arial;fontSize=23;fontStyle=1;align=left;verticalAlign=top;spacingTop=12;spacingLeft=18;connectable=0;" value="Partida y bus de eventos" vertex="1">
+          <mxGeometry height="1680" width="2100" x="2980" y="2440" as="geometry" />
+        </mxCell>
+        <mxCell id="package_4" parent="1" style="rounded=0;html=0;fillColor=none;strokeColor=#bbbbbb;dashed=1;dashPattern=4 4;strokeWidth=1;fontColor=#333333;fontFamily=Arial;fontSize=23;fontStyle=1;align=left;verticalAlign=top;spacingTop=12;spacingLeft=18;connectable=0;" value="Creador de cuestionarios" vertex="1">
+          <mxGeometry height="960" width="2100" x="80" y="4840" as="geometry" />
+        </mxCell>
+        <mxCell id="package_5" parent="1" style="rounded=0;html=0;fillColor=none;strokeColor=#bbbbbb;dashed=1;dashPattern=4 4;strokeWidth=1;fontColor=#333333;fontFamily=Arial;fontSize=23;fontStyle=1;align=left;verticalAlign=top;spacingTop=12;spacingLeft=18;connectable=0;" value="Informes y gestión de errores" vertex="1">
+          <mxGeometry height="1400" width="2100" x="2980" y="4840" as="geometry" />
+        </mxCell>
+        <mxCell id="relation_0" edge="1" parent="1" source="class_RepositorioKahootsJson" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=1;dashPattern=6 4;endArrow=block;exitX=0.0;exitY=0.3;exitPerimeter=0;entryX=1.0;entryY=0.25;entryPerimeter=0;" target="class_IRepositorioKahoots" value="implementa">
+          <mxGeometry relative="1" x="-0.010638297872340385" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3040" y="800" />
+              <mxPoint x="3040" y="740" />
+              <mxPoint x="1420" y="740" />
+              <mxPoint x="1420" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_1" edge="1" parent="1" source="class_RegistradorErroresTexto" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=1;dashPattern=6 4;endArrow=block;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=1.0;entryY=0.25;entryPerimeter=0;" target="class_IRegistradorErrores" value="implementa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3740" y="1280" />
+              <mxPoint x="3740" y="1160" />
+              <mxPoint x="1420" y="1160" />
+              <mxPoint x="1420" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_2" edge="1" parent="1" source="class_RepositorioInformesTexto" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=1;dashPattern=6 4;endArrow=block;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=1.0;entryY=0.25;entryPerimeter=0;" target="class_IRepositorioInformes" value="implementa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3040" y="1280" />
+              <mxPoint x="3040" y="1200" />
+              <mxPoint x="720" y="1200" />
+              <mxPoint x="720" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_3" edge="1" parent="1" source="class_RepositorioResultadosXml" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=1;dashPattern=6 4;endArrow=block;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=1.0;entryY=0.3;entryPerimeter=0;" target="class_IRepositorioResultados" value="implementa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="4440" y="840" />
+              <mxPoint x="4440" y="980" />
+              <mxPoint x="2120" y="980" />
+              <mxPoint x="2120" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_4" edge="1" parent="1" source="class_EscritorKahootsJson" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=1;dashPattern=6 4;endArrow=block;exitX=0.0;exitY=0.3333333333333333;exitPerimeter=0;entryX=1.0;entryY=0.14285714285714285;entryPerimeter=0;" target="class_IEscritorKahoots" value="implementa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3740" y="800" />
+              <mxPoint x="3740" y="700" />
+              <mxPoint x="720" y="700" />
+              <mxPoint x="720" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_5" edge="1" parent="1" source="class_GestorErrores" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=1;dashPattern=6 4;endArrow=block;exitX=0.0;exitY=0.25;exitPerimeter=0;entryX=1.0;entryY=0.75;entryPerimeter=0;" target="class_IRegistradorErrores" value="implementa">
+          <mxGeometry relative="1" x="-0.022222222222222254" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2220" y="5920" />
+              <mxPoint x="2220" y="1520" />
+              <mxPoint x="1420" y="1520" />
+              <mxPoint x="1420" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_6" edge="1" parent="1" source="class_EscritorKahootsJson" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.43478260869565216;exitY=0.0;exitPerimeter=0;entryX=0.43478260869565216;entryY=1.0;entryPerimeter=0;" target="class_ValidadorKahoots" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_7" edge="1" parent="1" source="class_RepositorioKahootsJson" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.391304347826087;exitY=0.0;exitPerimeter=0;entryX=0.391304347826087;entryY=1.0;entryPerimeter=0;" target="class_LectorKahoots" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_8" edge="1" parent="1" source="class_ConfiguradorInformes" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.391304347826087;exitY=1.0;exitPerimeter=0;entryX=0.391304347826087;entryY=0.0;entryPerimeter=0;" target="class_VistaContenidoInforme" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_9" edge="1" parent="1" source="class_ControladorPartida" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.43478260869565216;exitY=1.0;exitPerimeter=0;entryX=0.43478260869565216;entryY=0.0;entryPerimeter=0;" target="class_EvaluadorRespuestas" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_10" edge="1" parent="1" source="class_EvaluadorRespuestas" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.43478260869565216;exitY=1.0;exitPerimeter=0;entryX=0.43478260869565216;entryY=0.0;entryPerimeter=0;" target="class_BusEventosPartida" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_11" edge="1" parent="1" source="class_ConfiguradorSelector" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.43478260869565216;exitY=1.0;exitPerimeter=0;entryX=0.43478260869565216;entryY=0.0;entryPerimeter=0;" target="class_SesionPartida" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_12" edge="1" parent="1" source="class_ControladorClasificacion" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.35714285714285715;exitPerimeter=0;entryX=0.0;entryY=0.3333333333333333;entryPerimeter=0;" target="class_VistaClasificacion" value="usa">
+          <mxGeometry relative="1" x="-0.030769230769230882" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="840" y="3700" />
+              <mxPoint x="840" y="3680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_13" edge="1" parent="1" source="class_ConfiguradorCreadorKahoot" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.25;exitPerimeter=0;entryX=0.0;entryY=0.3;entryPerimeter=0;" target="class_ControladorCreadorKahoot" value="usa">
+          <mxGeometry relative="1" x="-0.030769230769230882" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="840" y="5000" />
+              <mxPoint x="840" y="5020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_14" edge="1" parent="1" source="class_ConfiguradorInformes" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.4444444444444444;exitPerimeter=0;entryX=0.0;entryY=0.3333333333333333;entryPerimeter=0;" target="class_ControladorInformes" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_15" edge="1" parent="1" source="class_ConfiguradorPartida" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.3333333333333333;exitPerimeter=0;entryX=0.0;entryY=0.35714285714285715;entryPerimeter=0;" target="class_ControladorPartida" value="usa">
+          <mxGeometry relative="1" x="-0.030769230769230882" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3740" y="2640" />
+              <mxPoint x="3740" y="2660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_16" edge="1" parent="1" source="class_ConfiguradorSelector" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.6666666666666666;exitPerimeter=0;entryX=0.0;entryY=0.375;entryPerimeter=0;" target="class_SelectorKahoots" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_17" edge="1" parent="1" source="class_ControladorCreadorKahoot" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.3;exitPerimeter=0;entryX=0.0;entryY=0.3;entryPerimeter=0;" target="class_VistaCreadorKahoot" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_18" edge="1" parent="1" source="class_KahootDatos" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.25;exitPerimeter=0;entryX=0.0;entryY=0.1111111111111111;entryPerimeter=0;" target="class_PreguntaDatos" value="contiene">
+          <mxGeometry relative="1" x="-0.030769230769230882" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="840" y="380" />
+              <mxPoint x="840" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_19" edge="1" parent="1" source="class_ControladorInformes" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.3333333333333333;exitPerimeter=0;entryX=0.0;entryY=0.3;entryPerimeter=0;" target="class_VistaInformes" value="usa">
+          <mxGeometry relative="1" x="-0.030769230769230882" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="4440" y="5040" />
+              <mxPoint x="4440" y="5020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_20" edge="1" parent="1" source="class_SelectorKahoots" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.375;exitPerimeter=0;entryX=0.0;entryY=0.75;entryPerimeter=0;" target="class_TarjetaKahoot" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_21" edge="1" parent="1" source="class_VistaListaPreguntas" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.25;exitPerimeter=0;entryX=0.0;entryY=0.1111111111111111;entryPerimeter=0;" target="class_TarjetaPregunta" value="usa">
+          <mxGeometry relative="1" x="-0.030769230769230882" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="840" y="5460" />
+              <mxPoint x="840" y="5440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_22" edge="1" parent="1" source="class_ControladorPartida" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.35714285714285715;exitPerimeter=0;entryX=0.0;entryY=0.3076923076923077;entryPerimeter=0;" target="class_VistaPartida" value="usa">
+          <mxGeometry relative="1" x="-0.030769230769230882" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="4440" y="2660" />
+              <mxPoint x="4440" y="2640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_23" edge="1" parent="1" source="class_RepositorioKahootsJson" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.3;exitPerimeter=0;entryX=0.0;entryY=0.8333333333333334;entryPerimeter=0;" target="class_ValidadorKahoots" value="usa">
+          <mxGeometry relative="1" x="0.040000000000000036" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3620" y="800" />
+              <mxPoint x="3620" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_24" edge="1" parent="1" source="class_ConfiguradorPartida" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.391304347826087;exitY=1.0;exitPerimeter=0;entryX=0.391304347826087;entryY=0.0;entryPerimeter=0;" target="class_GuardadorResultadosPartida" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3280" y="2860" />
+              <mxPoint x="3060" y="2860" />
+              <mxPoint x="3060" y="3600" />
+              <mxPoint x="3280" y="3600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_25" edge="1" parent="1" source="class_ControladorPartida" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.34782608695652173;exitY=1.0;exitPerimeter=0;entryX=0.34782608695652173;entryY=0.0;entryPerimeter=0;" target="class_BusEventosPartida" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3960" y="2900" />
+              <mxPoint x="3760" y="2900" />
+              <mxPoint x="3760" y="3600" />
+              <mxPoint x="3960" y="3600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_26" edge="1" parent="1" source="class_ConfiguradorClasificacion" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.7777777777777778;exitPerimeter=0;entryX=1.0;entryY=0.3333333333333333;entryPerimeter=0;" target="class_VistaClasificacion" value="usa">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1540" y="3280" />
+              <mxPoint x="1540" y="3680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_27" edge="1" parent="1" source="class_ControladorInformes" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.8333333333333334;exitPerimeter=0;entryX=1.0;entryY=0.25;entryPerimeter=0;" target="class_VistaContenidoInforme" value="usa">
+          <mxGeometry relative="1" x="0.02758620689655178" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3740" y="5160" />
+              <mxPoint x="3740" y="5500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_28" edge="1" parent="1" source="class_VistaInformes" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.9;exitPerimeter=0;entryX=1.0;entryY=0.25;entryPerimeter=0;" target="class_FilaInforme" value="usa">
+          <mxGeometry relative="1" x="0.040000000000000036" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="4440" y="5140" />
+              <mxPoint x="4440" y="5500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_29" edge="1" parent="1" source="class_VistaClasificacion" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.8333333333333334;exitPerimeter=0;entryX=1.0;entryY=0.25;entryPerimeter=0;" target="class_FilaResultado" value="usa">
+          <mxGeometry relative="1" x="0.05161290322580636" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="840" y="3800" />
+              <mxPoint x="840" y="4180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_30" edge="1" parent="1" source="class_ControladorPartida" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.7857142857142857;exitPerimeter=0;entryX=1.0;entryY=0.3;entryPerimeter=0;" target="class_TemporizadorPregunta" value="usa">
+          <mxGeometry relative="1" x="0.05161290322580636" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3740" y="2780" />
+              <mxPoint x="3740" y="3160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_31" edge="1" parent="1" source="class_ControladorPartida" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.7857142857142857;exitPerimeter=0;entryX=0.0;entryY=0.3333333333333333;entryPerimeter=0;" target="class_ProgresoPartida" value="usa">
+          <mxGeometry relative="1" x="0.07272727272727275" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="4320" y="2780" />
+              <mxPoint x="4320" y="3200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_32" edge="1" parent="1" source="class_ConfiguradorSelector" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.8888888888888888;exitPerimeter=0;entryX=0.0;entryY=0.25;entryPerimeter=0;" target="class_NavegacionEscenas" value="usa">
+          <mxGeometry relative="1" x="0.09142857142857141" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="720" y="2720" />
+              <mxPoint x="720" y="3180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_33" edge="1" parent="1" source="class_ControladorClasificacion" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.21428571428571427;exitPerimeter=0;entryX=0.0;entryY=0.2857142857142857;entryPerimeter=0;" target="class_ClasificadorResultados" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="720" y="3660" />
+              <mxPoint x="720" y="3560" />
+              <mxPoint x="1520" y="3560" />
+              <mxPoint x="1520" y="3640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_34" edge="1" parent="1" source="class_ConfiguradorCreadorKahoot" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;" target="class_VistaCreadorKahoot" value="usa">
+          <mxGeometry relative="1" x="0.016129032258064502" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="720" y="5040" />
+              <mxPoint x="720" y="5200" />
+              <mxPoint x="1540" y="5200" />
+              <mxPoint x="1540" y="5060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_35" edge="1" parent="1" source="class_ConfiguradorInformes" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.2222222222222222;exitPerimeter=0;entryX=0.0;entryY=0.1;entryPerimeter=0;" target="class_VistaInformes" value="usa">
+          <mxGeometry relative="1" x="-0.02777777777777779" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3620" y="5000" />
+              <mxPoint x="3620" y="5240" />
+              <mxPoint x="4420" y="5240" />
+              <mxPoint x="4420" y="4980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_36" edge="1" parent="1" source="class_ConfiguradorPartida" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.16666666666666666;exitPerimeter=0;entryX=0.0;entryY=0.15384615384615385;entryPerimeter=0;" target="class_VistaPartida" value="usa">
+          <mxGeometry relative="1" x="-0.013333333333333308" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3620" y="2600" />
+              <mxPoint x="3620" y="2880" />
+              <mxPoint x="4420" y="2880" />
+              <mxPoint x="4420" y="2600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_37" edge="1" parent="1" source="class_ConfiguradorPartida" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.8333333333333334;exitPerimeter=0;entryX=0.0;entryY=0.1111111111111111;entryPerimeter=0;" target="class_BusEventosPartida" value="usa">
+          <mxGeometry relative="1" x="-0.13793103448275867" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3600" y="2760" />
+              <mxPoint x="3600" y="3680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_38" edge="1" parent="1" source="class_ConfiguradorClasificacion" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.5555555555555556;exitPerimeter=0;entryX=1.0;entryY=0.5;entryPerimeter=0;" target="class_ControladorClasificacion" value="usa">
+          <mxGeometry relative="1" x="-0.030555555555555558" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1400" y="3240" />
+              <mxPoint x="1400" y="3540" />
+              <mxPoint x="740" y="3540" />
+              <mxPoint x="740" y="3740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_39" edge="1" parent="1" source="class_VistaCreadorKahoot" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.9;exitPerimeter=0;entryX=1.0;entryY=0.5;entryPerimeter=0;" target="class_VistaListaPreguntas" value="usa">
+          <mxGeometry relative="1" x="0.07692307692307687" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1560" y="5140" />
+              <mxPoint x="1560" y="5380" />
+              <mxPoint x="720" y="5380" />
+              <mxPoint x="720" y="5500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_40" edge="1" parent="1" source="class_SelectorKahoots" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.25;exitPerimeter=0;entryX=0.0;entryY=0.75;entryPerimeter=0;" target="class_IRegistradorErrores" value="usa">
+          <mxGeometry relative="1" x="0.018292682926829285" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="840" y="2640" />
+              <mxPoint x="840" y="2780" />
+              <mxPoint x="40" y="2780" />
+              <mxPoint x="40" y="1440" />
+              <mxPoint x="840" y="1440" />
+              <mxPoint x="840" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_41" edge="1" parent="1" source="class_SelectorKahoots" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.25;exitPerimeter=0;entryX=1.0;entryY=0.75;entryPerimeter=0;" target="class_IRepositorioKahoots" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1420" y="2640" />
+              <mxPoint x="1420" y="2760" />
+              <mxPoint x="2240" y="2760" />
+              <mxPoint x="2240" y="1020" />
+              <mxPoint x="1420" y="1020" />
+              <mxPoint x="1420" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_42" edge="1" parent="1" source="class_ConfiguradorClasificacion" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.1111111111111111;exitPerimeter=0;entryX=1.0;entryY=0.5;entryPerimeter=0;" target="class_IRegistradorErrores" value="usa">
+          <mxGeometry relative="1" x="0.011363636363636465" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1540" y="3160" />
+              <mxPoint x="1540" y="2780" />
+              <mxPoint x="2260" y="2780" />
+              <mxPoint x="2260" y="1540" />
+              <mxPoint x="1440" y="1540" />
+              <mxPoint x="1440" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_43" edge="1" parent="1" source="class_SesionPartida" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.5217391304347826;exitY=0.0;exitPerimeter=0;entryX=0.5217391304347826;entryY=1.0;entryPerimeter=0;" target="class_KahootDatos" value="usa">
+          <mxGeometry relative="1" x="0.05316455696202538" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="440" y="3080" />
+              <mxPoint x="2280" y="3080" />
+              <mxPoint x="2280" y="1040" />
+              <mxPoint x="700" y="1040" />
+              <mxPoint x="700" y="560" />
+              <mxPoint x="440" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_44" edge="1" parent="1" source="class_SelectorKahoots" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=1.0;entryY=0.75;entryPerimeter=0;" target="class_KahootDatos" value="usa">
+          <mxGeometry relative="1" x="-0.01038062283737029" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="860" y="2720" />
+              <mxPoint x="860" y="2920" />
+              <mxPoint x="2300" y="2920" />
+              <mxPoint x="2300" y="560" />
+              <mxPoint x="720" y="560" />
+              <mxPoint x="720" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_45" edge="1" parent="1" source="class_ControladorClasificacion" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.07142857142857142;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;" target="class_IRegistradorErrores" value="usa">
+          <mxGeometry relative="1" x="-0.03223443223443223" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="700" y="3620" />
+              <mxPoint x="700" y="3100" />
+              <mxPoint x="2320" y="3100" />
+              <mxPoint x="2320" y="1560" />
+              <mxPoint x="860" y="1560" />
+              <mxPoint x="860" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_46" edge="1" parent="1" source="class_ControladorClasificacion" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.43478260869565216;exitY=0.0;exitPerimeter=0;entryX=0.43478260869565216;entryY=1.0;entryPerimeter=0;" target="class_KahootDatos" value="contiene">
+          <mxGeometry relative="1" x="0.02005730659025784" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="400" y="3380" />
+              <mxPoint x="2340" y="3380" />
+              <mxPoint x="2340" y="580" />
+              <mxPoint x="400" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_47" edge="1" parent="1" source="class_ConfiguradorPartida" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.8333333333333334;exitPerimeter=0;entryX=1.0;entryY=0.3;entryPerimeter=0;" target="class_SesionPartida" value="usa">
+          <mxGeometry relative="1" x="0.13749999999999996" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3040" y="2760" />
+              <mxPoint x="3040" y="3360" />
+              <mxPoint x="720" y="3360" />
+              <mxPoint x="720" y="3200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_48" edge="1" parent="1" source="class_TarjetaKahoot" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.25;exitPerimeter=0;entryX=1.0;entryY=0.5;entryPerimeter=0;" target="class_KahootDatos" value="usa">
+          <mxGeometry relative="1" x="0.0078125" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1560" y="2600" />
+              <mxPoint x="1560" y="2800" />
+              <mxPoint x="2360" y="2800" />
+              <mxPoint x="2360" y="600" />
+              <mxPoint x="740" y="600" />
+              <mxPoint x="740" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_49" edge="1" parent="1" source="class_ControladorCreadorKahoot" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.1;exitPerimeter=0;entryX=0.0;entryY=0.25;entryPerimeter=0;" target="class_IRegistradorErrores" value="usa">
+          <mxGeometry relative="1" x="-0.01897018970189701" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="860" y="4980" />
+              <mxPoint x="860" y="5220" />
+              <mxPoint x="2380" y="5220" />
+              <mxPoint x="2380" y="1580" />
+              <mxPoint x="820" y="1580" />
+              <mxPoint x="820" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_50" edge="1" parent="1" source="class_ControladorClasificacion" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.6956521739130435;exitY=0.0;exitPerimeter=0;entryX=0.0;entryY=0.9;entryPerimeter=0;" target="class_IRepositorioResultados" value="usa">
+          <mxGeometry relative="1" x="0.022794117647058743" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="520" y="3400" />
+              <mxPoint x="2400" y="3400" />
+              <mxPoint x="2400" y="1060" />
+              <mxPoint x="1540" y="1060" />
+              <mxPoint x="1540" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_51" edge="1" parent="1" source="class_GuardadorResultadosPartida" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.38461538461538464;exitPerimeter=0;entryX=1.0;entryY=0.9;entryPerimeter=0;" target="class_IRepositorioResultados" value="usa">
+          <mxGeometry relative="1" x="0.07291666666666674" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2420" y="3760" />
+              <mxPoint x="2420" y="1000" />
+              <mxPoint x="2100" y="1000" />
+              <mxPoint x="2100" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_52" edge="1" parent="1" source="class_GuardadorResultadosPartida" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.23076923076923078;exitPerimeter=0;entryX=0.6521739130434783;entryY=1.0;entryPerimeter=0;" target="class_IRegistradorErrores" value="usa">
+          <mxGeometry relative="1" x="0.01611374407582944" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2440" y="3720" />
+              <mxPoint x="2440" y="1600" />
+              <mxPoint x="1200" y="1600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_53" edge="1" parent="1" source="class_ControladorCreadorKahoot" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=1.0;entryY=0.7142857142857143;entryPerimeter=0;" target="class_IEscritorKahoots" value="usa">
+          <mxGeometry relative="1" x="-0.011990407673860948" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="840" y="5060" />
+              <mxPoint x="840" y="5240" />
+              <mxPoint x="2460" y="5240" />
+              <mxPoint x="2460" y="720" />
+              <mxPoint x="740" y="720" />
+              <mxPoint x="740" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_54" edge="1" parent="1" source="class_VistaClasificacion" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.8333333333333334;exitPerimeter=0;entryX=0.0;entryY=0.25;entryPerimeter=0;" target="class_AvisoInformes" value="usa">
+          <mxGeometry relative="1" x="-0.027131782945736482" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2940" y="3800" />
+              <mxPoint x="2940" y="5660" />
+              <mxPoint x="4440" y="5660" />
+              <mxPoint x="4440" y="5500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_55" edge="1" parent="1" source="class_EvaluadorRespuestas" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.2727272727272727;exitPerimeter=0;entryX=1.0;entryY=0.7777777777777778;entryPerimeter=0;" target="class_PreguntaDatos" value="usa">
+          <mxGeometry relative="1" x="0.06976744186046502" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3740" y="3160" />
+              <mxPoint x="3740" y="3180" />
+              <mxPoint x="3620" y="3180" />
+              <mxPoint x="3620" y="2900" />
+              <mxPoint x="2480" y="2900" />
+              <mxPoint x="2480" y="620" />
+              <mxPoint x="1420" y="620" />
+              <mxPoint x="1420" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_56" edge="1" parent="1" source="class_ProgresoPartida" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.2;exitPerimeter=0;entryX=1.0;entryY=0.5555555555555556;entryPerimeter=0;" target="class_PreguntaDatos" value="contiene">
+          <mxGeometry relative="1" x="-0.11877133105802051" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="4440" y="3160" />
+              <mxPoint x="4440" y="2920" />
+              <mxPoint x="2500" y="2920" />
+              <mxPoint x="2500" y="640" />
+              <mxPoint x="1440" y="640" />
+              <mxPoint x="1440" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_57" edge="1" parent="1" source="class_SelectorKahoots" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=1.0;exitY=0.875;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;" target="class_AvisoInformes" value="usa">
+          <mxGeometry relative="1" x="-0.02352941176470591" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2360" y="2840" />
+              <mxPoint x="2360" y="5680" />
+              <mxPoint x="4460" y="5680" />
+              <mxPoint x="4460" y="5540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_58" edge="1" parent="1" source="class_ControladorInformes" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.16666666666666666;exitPerimeter=0;entryX=0.5652173913043478;entryY=1.0;entryPerimeter=0;" target="class_IRegistradorErrores" value="usa">
+          <mxGeometry relative="1" x="-0.018181818181818188" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3640" y="5000" />
+              <mxPoint x="3640" y="5180" />
+              <mxPoint x="2520" y="5180" />
+              <mxPoint x="2520" y="1620" />
+              <mxPoint x="1160" y="1620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_59" edge="1" parent="1" source="class_GestorErrores" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=0.7391304347826086;entryY=1.0;entryPerimeter=0;" target="class_IRegistradorErrores" value="usa">
+          <mxGeometry relative="1" x="0.11919770773638971" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2540" y="5960" />
+              <mxPoint x="2540" y="1180" />
+              <mxPoint x="1460" y="1180" />
+              <mxPoint x="1460" y="1460" />
+              <mxPoint x="1240" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relation_60" edge="1" parent="1" source="class_ControladorInformes" style="edgeStyle=none;rounded=0;html=0;jumpStyle=arc;jumpSize=10;strokeColor=#265c86;strokeWidth=1.3;startArrow=none;endFill=0;endSize=14;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#265c86;labelBackgroundColor=#ffffff;spacing=4;dashed=0;endArrow=open;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=1.0;entryY=0.75;entryPerimeter=0;" target="class_IRepositorioInformes" value="usa">
+          <mxGeometry relative="1" x="-0.10079575596816981" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3660" y="5080" />
+              <mxPoint x="3660" y="5200" />
+              <mxPoint x="2560" y="5200" />
+              <mxPoint x="2560" y="1140" />
+              <mxPoint x="740" y="1140" />
+              <mxPoint x="740" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="class_KahootDatos" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="160" width="460" x="200" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="header_KahootDatos" parent="class_KahootDatos" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="KahootDatos" vertex="1">
+          <mxGeometry height="32" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_KahootDatos" parent="class_KahootDatos" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_KahootDatos" parent="class_KahootDatos" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ id: string&#xa;+ titulo: string&#xa;+ preguntas: PreguntaDatos[]" vertex="1">
+          <mxGeometry height="58" width="436" x="12" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_KahootDatos" parent="class_KahootDatos" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_KahootDatos" parent="class_KahootDatos" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="—" vertex="1">
+          <mxGeometry height="38" width="436" x="12" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="class_PreguntaDatos" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="180" width="460" x="900" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="header_PreguntaDatos" parent="class_PreguntaDatos" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="PreguntaDatos" vertex="1">
+          <mxGeometry height="32" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_PreguntaDatos" parent="class_PreguntaDatos" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_PreguntaDatos" parent="class_PreguntaDatos" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ enunciado: string&#xa;+ respuestas: string[]&#xa;+ respuestaCorrecta: int&#xa;+ duracionSegundos: int" vertex="1">
+          <mxGeometry height="76" width="436" x="12" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_PreguntaDatos" parent="class_PreguntaDatos" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_PreguntaDatos" parent="class_PreguntaDatos" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="—" vertex="1">
+          <mxGeometry height="40" width="436" x="12" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ResultadoPartida" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="180" width="460" x="1600" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="header_ResultadoPartida" parent="class_ResultadoPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="ResultadoPartida" vertex="1">
+          <mxGeometry height="32" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_ResultadoPartida" parent="class_ResultadoPartida" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_ResultadoPartida" parent="class_ResultadoPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Jugador: string&#xa;+ Puntos: int&#xa;+ Segundos: float" vertex="1">
+          <mxGeometry height="58" width="436" x="12" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_ResultadoPartida" parent="class_ResultadoPartida" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_ResultadoPartida" parent="class_ResultadoPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ ResultadoPartida(jugador: string, puntos: int,&#xa;  segundos: float)" vertex="1">
+          <mxGeometry height="58" width="436" x="12" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="class_IEscritorKahoots" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="140" width="460" x="200" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="header_IEscritorKahoots" parent="class_IEscritorKahoots" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«interface»&#xa;IEscritorKahoots" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_IEscritorKahoots" parent="class_IEscritorKahoots" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_IEscritorKahoots" parent="class_IEscritorKahoots" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="—" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_IEscritorKahoots" parent="class_IEscritorKahoots" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_IEscritorKahoots" parent="class_IEscritorKahoots" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Guardar(datos: KahootDatos): string" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="class_IRepositorioKahoots" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="160" width="460" x="900" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="header_IRepositorioKahoots" parent="class_IRepositorioKahoots" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«interface»&#xa;IRepositorioKahoots" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_IRepositorioKahoots" parent="class_IRepositorioKahoots" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_IRepositorioKahoots" parent="class_IRepositorioKahoots" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="—" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_IRepositorioKahoots" parent="class_IRepositorioKahoots" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_IRepositorioKahoots" parent="class_IRepositorioKahoots" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ ObtenerRutas(): string[]&#xa;+ Cargar(ruta: string): KahootDatos" vertex="1">
+          <mxGeometry height="48" width="436" x="12" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="class_IRepositorioResultados" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="200" width="460" x="1600" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="header_IRepositorioResultados" parent="class_IRepositorioResultados" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«interface»&#xa;IRepositorioResultados" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_IRepositorioResultados" parent="class_IRepositorioResultados" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_IRepositorioResultados" parent="class_IRepositorioResultados" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="—" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_IRepositorioResultados" parent="class_IRepositorioResultados" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_IRepositorioResultados" parent="class_IRepositorioResultados" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Guardar(idCuestionario: string, jugador: string,&#xa;  puntos: int, segundos: float): void&#xa;+ Cargar(idCuestionario: string):&#xa;  List&lt;ResultadoPartida&gt;" vertex="1">
+          <mxGeometry height="88" width="436" x="12" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="class_IRepositorioInformes" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="160" width="460" x="200" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="header_IRepositorioInformes" parent="class_IRepositorioInformes" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«interface»&#xa;IRepositorioInformes" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_IRepositorioInformes" parent="class_IRepositorioInformes" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_IRepositorioInformes" parent="class_IRepositorioInformes" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="—" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_IRepositorioInformes" parent="class_IRepositorioInformes" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_IRepositorioInformes" parent="class_IRepositorioInformes" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ ObtenerRutas(): string[]&#xa;+ Leer(ruta: string): string" vertex="1">
+          <mxGeometry height="48" width="436" x="12" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="class_IRegistradorErrores" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="160" width="460" x="900" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="header_IRegistradorErrores" parent="class_IRegistradorErrores" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«interface»&#xa;IRegistradorErrores" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_IRegistradorErrores" parent="class_IRegistradorErrores" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_IRegistradorErrores" parent="class_IRegistradorErrores" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="—" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_IRegistradorErrores" parent="class_IRegistradorErrores" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_IRegistradorErrores" parent="class_IRegistradorErrores" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Registrar(operacion: string, error: Exception):&#xa;  void" vertex="1">
+          <mxGeometry height="48" width="436" x="12" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="class_RespuestaEvaluada" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="240" width="460" x="1600" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="header_RespuestaEvaluada" parent="class_RespuestaEvaluada" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«struct»&#xa;RespuestaEvaluada" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_RespuestaEvaluada" parent="class_RespuestaEvaluada" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_RespuestaEvaluada" parent="class_RespuestaEvaluada" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ EsCorrecta: bool&#xa;+ RespuestaCorrecta: string&#xa;+ TiempoAgotado: bool&#xa;+ PuntosObtenidos: int&#xa;+ SegundosEmpleados: float" vertex="1">
+          <mxGeometry height="94" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_RespuestaEvaluada" parent="class_RespuestaEvaluada" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_RespuestaEvaluada" parent="class_RespuestaEvaluada" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ RespuestaEvaluada(esCorrecta: bool,&#xa;  respuestaCorrecta: string, tiempoAgotado: bool,&#xa;  puntosObtenidos: int, segundosEmpleados: float)" vertex="1">
+          <mxGeometry height="62" width="436" x="12" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="class_PartidaTerminada" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="160" width="460" x="200" y="1740" as="geometry" />
+        </mxCell>
+        <mxCell id="header_PartidaTerminada" parent="class_PartidaTerminada" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«struct»&#xa;PartidaTerminada" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_PartidaTerminada" parent="class_PartidaTerminada" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_PartidaTerminada" parent="class_PartidaTerminada" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Puntos: int&#xa;+ Segundos: float" vertex="1">
+          <mxGeometry height="40" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_PartidaTerminada" parent="class_PartidaTerminada" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_PartidaTerminada" parent="class_PartidaTerminada" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ PartidaTerminada(puntos: int, segundos: float)" vertex="1">
+          <mxGeometry height="36" width="436" x="12" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LectorKahoots" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="120" width="460" x="3100" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="header_LectorKahoots" parent="class_LectorKahoots" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="LectorKahoots" vertex="1">
+          <mxGeometry height="32" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_LectorKahoots" parent="class_LectorKahoots" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_LectorKahoots" parent="class_LectorKahoots" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="—" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_LectorKahoots" parent="class_LectorKahoots" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_LectorKahoots" parent="class_LectorKahoots" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ LeerArchivo(ruta: string): KahootDatos" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ValidadorKahoots" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="120" width="460" x="3800" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="header_ValidadorKahoots" parent="class_ValidadorKahoots" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="ValidadorKahoots" vertex="1">
+          <mxGeometry height="32" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_ValidadorKahoots" parent="class_ValidadorKahoots" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_ValidadorKahoots" parent="class_ValidadorKahoots" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="—" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_ValidadorKahoots" parent="class_ValidadorKahoots" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_ValidadorKahoots" parent="class_ValidadorKahoots" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Validar(datos: KahootDatos): void" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="class_PreparadorCarpetaKahoots" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="140" width="460" x="4500" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="header_PreparadorCarpetaKahoots" parent="class_PreparadorCarpetaKahoots" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="PreparadorCarpetaKahoots" vertex="1">
+          <mxGeometry height="32" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_PreparadorCarpetaKahoots" parent="class_PreparadorCarpetaKahoots" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_PreparadorCarpetaKahoots" parent="class_PreparadorCarpetaKahoots" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="—" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_PreparadorCarpetaKahoots" parent="class_PreparadorCarpetaKahoots" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_PreparadorCarpetaKahoots" parent="class_PreparadorCarpetaKahoots" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Preparar(carpetaOrigen: string, carpetaDestino:&#xa;  string): void" vertex="1">
+          <mxGeometry height="48" width="436" x="12" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="class_RepositorioKahootsJson" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="200" width="460" x="3100" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="header_RepositorioKahootsJson" parent="class_RepositorioKahootsJson" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="RepositorioKahootsJson" vertex="1">
+          <mxGeometry height="32" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_RepositorioKahootsJson" parent="class_RepositorioKahootsJson" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_RepositorioKahootsJson" parent="class_RepositorioKahootsJson" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- carpeta: string {readOnly}&#xa;- lector: LectorKahoots {readOnly}&#xa;- validador: ValidadorKahoots {readOnly}" vertex="1">
+          <mxGeometry height="58" width="436" x="12" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_RepositorioKahootsJson" parent="class_RepositorioKahootsJson" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_RepositorioKahootsJson" parent="class_RepositorioKahootsJson" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ RepositorioKahootsJson(carpeta: string, lector:&#xa;  LectorKahoots, validador: ValidadorKahoots)&#xa;+ ObtenerRutas(): string[]&#xa;+ Cargar(ruta: string): KahootDatos" vertex="1">
+          <mxGeometry height="78" width="436" x="12" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="class_EscritorKahootsJson" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="180" width="460" x="3800" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="header_EscritorKahootsJson" parent="class_EscritorKahootsJson" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="EscritorKahootsJson" vertex="1">
+          <mxGeometry height="32" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_EscritorKahootsJson" parent="class_EscritorKahootsJson" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_EscritorKahootsJson" parent="class_EscritorKahootsJson" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- carpeta: string {readOnly}&#xa;- validador: ValidadorKahoots {readOnly}" vertex="1">
+          <mxGeometry height="40" width="436" x="12" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_EscritorKahootsJson" parent="class_EscritorKahootsJson" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_EscritorKahootsJson" parent="class_EscritorKahootsJson" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ EscritorKahootsJson(carpeta: string, validador:&#xa;  ValidadorKahoots)&#xa;+ Guardar(datos: KahootDatos): string" vertex="1">
+          <mxGeometry height="76" width="436" x="12" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="class_RepositorioResultadosXml" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="200" width="460" x="4500" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="header_RepositorioResultadosXml" parent="class_RepositorioResultadosXml" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="RepositorioResultadosXml" vertex="1">
+          <mxGeometry height="32" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_RepositorioResultadosXml" parent="class_RepositorioResultadosXml" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_RepositorioResultadosXml" parent="class_RepositorioResultadosXml" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- carpeta: string {readOnly}" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_RepositorioResultadosXml" parent="class_RepositorioResultadosXml" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_RepositorioResultadosXml" parent="class_RepositorioResultadosXml" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ RepositorioResultadosXml(carpeta: string)&#xa;+ Guardar(idCuestionario: string, jugador: string,&#xa;  puntos: int, segundos: float): void&#xa;+ Cargar(idCuestionario: string):&#xa;  List&lt;ResultadoPartida&gt;" vertex="1">
+          <mxGeometry height="108" width="436" x="12" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="class_RepositorioInformesTexto" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="160" width="460" x="3100" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="header_RepositorioInformesTexto" parent="class_RepositorioInformesTexto" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="RepositorioInformesTexto" vertex="1">
+          <mxGeometry height="32" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_RepositorioInformesTexto" parent="class_RepositorioInformesTexto" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_RepositorioInformesTexto" parent="class_RepositorioInformesTexto" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- carpeta: string {readOnly}" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_RepositorioInformesTexto" parent="class_RepositorioInformesTexto" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_RepositorioInformesTexto" parent="class_RepositorioInformesTexto" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ RepositorioInformesTexto(carpeta: string)&#xa;+ ObtenerRutas(): string[]&#xa;+ Leer(ruta: string): string" vertex="1">
+          <mxGeometry height="68" width="436" x="12" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="class_RegistradorErroresTexto" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="160" width="460" x="3800" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="header_RegistradorErroresTexto" parent="class_RegistradorErroresTexto" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="RegistradorErroresTexto" vertex="1">
+          <mxGeometry height="32" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_RegistradorErroresTexto" parent="class_RegistradorErroresTexto" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_RegistradorErroresTexto" parent="class_RegistradorErroresTexto" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- carpeta: string {readOnly}" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_RegistradorErroresTexto" parent="class_RegistradorErroresTexto" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_RegistradorErroresTexto" parent="class_RegistradorErroresTexto" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ RegistradorErroresTexto(carpeta: string)&#xa;+ Registrar(operacion: string, error: Exception):&#xa;  void" vertex="1">
+          <mxGeometry height="68" width="436" x="12" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ConfiguradorSelector" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="180" width="460" x="200" y="2560" as="geometry" />
+        </mxCell>
+        <mxCell id="header_ConfiguradorSelector" parent="class_ConfiguradorSelector" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;ConfiguradorSelector" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_ConfiguradorSelector" parent="class_ConfiguradorSelector" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_ConfiguradorSelector" parent="class_ConfiguradorSelector" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- selector: SelectorKahoots&#xa;- sesionPartida: SesionPartida&#xa;- navegacion: NavegacionEscenas" vertex="1">
+          <mxGeometry height="58" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_ConfiguradorSelector" parent="class_ConfiguradorSelector" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_ConfiguradorSelector" parent="class_ConfiguradorSelector" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- Start(): void" vertex="1">
+          <mxGeometry height="38" width="436" x="12" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="class_SelectorKahoots" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="320" width="460" x="900" y="2560" as="geometry" />
+        </mxCell>
+        <mxCell id="header_SelectorKahoots" parent="class_SelectorKahoots" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;SelectorKahoots" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_SelectorKahoots" parent="class_SelectorKahoots" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_SelectorKahoots" parent="class_SelectorKahoots" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- tarjetaPrefab: TarjetaKahoot&#xa;- avisoInformes: AvisoInformes&#xa;- kahootSeleccionado: KahootDatos&#xa;- registradorErrores: IRegistradorErrores&#xa;- repositorio: IRepositorioKahoots&#xa;+ PartidaSolicitada: Action&lt;KahootDatos, string&gt;&#xa;  {event}" vertex="1">
+          <mxGeometry height="130" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_SelectorKahoots" parent="class_SelectorKahoots" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_SelectorKahoots" parent="class_SelectorKahoots" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Inicializar(repositorio: IRepositorioKahoots,&#xa;  registradorErrores: IRegistradorErrores): void&#xa;+ ActualizarLista(): void&#xa;+ ActualizarEstadoBoton(): void&#xa;+ SolicitarPartida(): void" vertex="1">
+          <mxGeometry height="106" width="436" x="12" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="class_TarjetaKahoot" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="160" width="460" x="1600" y="2560" as="geometry" />
+        </mxCell>
+        <mxCell id="header_TarjetaKahoot" parent="class_TarjetaKahoot" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;TarjetaKahoot" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_TarjetaKahoot" parent="class_TarjetaKahoot" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_TarjetaKahoot" parent="class_TarjetaKahoot" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- datos: KahootDatos&#xa;+ Seleccionada: Action&lt;KahootDatos&gt; {event}" vertex="1">
+          <mxGeometry height="40" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_TarjetaKahoot" parent="class_TarjetaKahoot" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_TarjetaKahoot" parent="class_TarjetaKahoot" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Configurar(datos: KahootDatos): void" vertex="1">
+          <mxGeometry height="36" width="436" x="12" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="class_SesionPartida" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="200" width="460" x="200" y="3140" as="geometry" />
+        </mxCell>
+        <mxCell id="header_SesionPartida" parent="class_SesionPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«ScriptableObject»&#xa;SesionPartida" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_SesionPartida" parent="class_SesionPartida" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_SesionPartida" parent="class_SesionPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Cuestionario: KahootDatos&#xa;+ NombreJugador: string" vertex="1">
+          <mxGeometry height="40" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_SesionPartida" parent="class_SesionPartida" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_SesionPartida" parent="class_SesionPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Preparar(cuestionario: KahootDatos,&#xa;  nombreJugador: string): void&#xa;+ Limpiar(): void" vertex="1">
+          <mxGeometry height="76" width="436" x="12" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="class_NavegacionEscenas" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="160" width="460" x="900" y="3140" as="geometry" />
+        </mxCell>
+        <mxCell id="header_NavegacionEscenas" parent="class_NavegacionEscenas" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;NavegacionEscenas" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_NavegacionEscenas" parent="class_NavegacionEscenas" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_NavegacionEscenas" parent="class_NavegacionEscenas" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="—" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_NavegacionEscenas" parent="class_NavegacionEscenas" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_NavegacionEscenas" parent="class_NavegacionEscenas" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ CambiarEscena(nombreEscena: string): void&#xa;+ Salir(): void" vertex="1">
+          <mxGeometry height="48" width="436" x="12" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ConfiguradorClasificacion" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="180" width="460" x="1600" y="3140" as="geometry" />
+        </mxCell>
+        <mxCell id="header_ConfiguradorClasificacion" parent="class_ConfiguradorClasificacion" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;ConfiguradorClasificacion" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_ConfiguradorClasificacion" parent="class_ConfiguradorClasificacion" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_ConfiguradorClasificacion" parent="class_ConfiguradorClasificacion" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- vista: VistaClasificacion&#xa;- controlador: ControladorClasificacion&#xa;- registradorErrores: IRegistradorErrores" vertex="1">
+          <mxGeometry height="58" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_ConfiguradorClasificacion" parent="class_ConfiguradorClasificacion" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_ConfiguradorClasificacion" parent="class_ConfiguradorClasificacion" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- Start(): void" vertex="1">
+          <mxGeometry height="38" width="436" x="12" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ControladorClasificacion" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="280" width="460" x="200" y="3600" as="geometry" />
+        </mxCell>
+        <mxCell id="header_ControladorClasificacion" parent="class_ControladorClasificacion" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;ControladorClasificacion" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_ControladorClasificacion" parent="class_ControladorClasificacion" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_ControladorClasificacion" parent="class_ControladorClasificacion" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- cuestionarios: List&lt;KahootDatos&gt;&#xa;- repositorio: IRepositorioResultados&#xa;- clasificador: ClasificadorResultados&#xa;- vista: VistaClasificacion&#xa;- registradorErrores: IRegistradorErrores" vertex="1">
+          <mxGeometry height="94" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_ControladorClasificacion" parent="class_ControladorClasificacion" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_ControladorClasificacion" parent="class_ControladorClasificacion" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Iniciar(cuestionarios: List&lt;KahootDatos&gt;,&#xa;  repositorio: IRepositorioResultados,&#xa;  clasificador: ClasificadorResultados, vista:&#xa;  VistaClasificacion, registradorErrores:&#xa;  IRegistradorErrores): void" vertex="1">
+          <mxGeometry height="102" width="436" x="12" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="class_VistaClasificacion" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="240" width="460" x="900" y="3600" as="geometry" />
+        </mxCell>
+        <mxCell id="header_VistaClasificacion" parent="class_VistaClasificacion" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;VistaClasificacion" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_VistaClasificacion" parent="class_VistaClasificacion" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_VistaClasificacion" parent="class_VistaClasificacion" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- filaPrefab: FilaResultado&#xa;- avisoInformes: AvisoInformes&#xa;+ CuestionarioSeleccionado: Action&lt;int&gt; {event}" vertex="1">
+          <mxGeometry height="58" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_VistaClasificacion" parent="class_VistaClasificacion" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_VistaClasificacion" parent="class_VistaClasificacion" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ MostrarResultados(resultados:&#xa;  List&lt;ResultadoPartida&gt;): void&#xa;+ MostrarCuestionarios(titulos: List&lt;string&gt;): void&#xa;+ MostrarMensaje(mensaje: string): void&#xa;+ MostrarAvisoInformes(mensaje: string): void" vertex="1">
+          <mxGeometry height="98" width="436" x="12" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ClasificadorResultados" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="140" width="460" x="1600" y="3600" as="geometry" />
+        </mxCell>
+        <mxCell id="header_ClasificadorResultados" parent="class_ClasificadorResultados" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="ClasificadorResultados" vertex="1">
+          <mxGeometry height="32" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_ClasificadorResultados" parent="class_ClasificadorResultados" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_ClasificadorResultados" parent="class_ClasificadorResultados" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="—" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_ClasificadorResultados" parent="class_ClasificadorResultados" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_ClasificadorResultados" parent="class_ClasificadorResultados" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Ordenar(resultados: List&lt;ResultadoPartida&gt;):&#xa;  List&lt;ResultadoPartida&gt;" vertex="1">
+          <mxGeometry height="48" width="436" x="12" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="class_FilaResultado" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="160" width="460" x="200" y="4140" as="geometry" />
+        </mxCell>
+        <mxCell id="header_FilaResultado" parent="class_FilaResultado" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;FilaResultado" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_FilaResultado" parent="class_FilaResultado" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_FilaResultado" parent="class_FilaResultado" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="—" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_FilaResultado" parent="class_FilaResultado" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_FilaResultado" parent="class_FilaResultado" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Configurar(resultado: ResultadoPartida, posicion:&#xa;  int): void" vertex="1">
+          <mxGeometry height="48" width="436" x="12" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ConfiguradorPartida" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="240" width="460" x="3100" y="2560" as="geometry" />
+        </mxCell>
+        <mxCell id="header_ConfiguradorPartida" parent="class_ConfiguradorPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;ConfiguradorPartida" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_ConfiguradorPartida" parent="class_ConfiguradorPartida" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_ConfiguradorPartida" parent="class_ConfiguradorPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- sesionPartida: SesionPartida&#xa;- vista: VistaPartida&#xa;- controlador: ControladorPartida&#xa;- segundosPuntos: float&#xa;- bus: BusEventosPartida&#xa;- guardadorResultados: GuardadorResultadosPartida" vertex="1">
+          <mxGeometry height="112" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_ConfiguradorPartida" parent="class_ConfiguradorPartida" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_ConfiguradorPartida" parent="class_ConfiguradorPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- Start(): void" vertex="1">
+          <mxGeometry height="44" width="436" x="12" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ControladorPartida" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="280" width="460" x="3800" y="2560" as="geometry" />
+        </mxCell>
+        <mxCell id="header_ControladorPartida" parent="class_ControladorPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;ControladorPartida" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_ControladorPartida" parent="class_ControladorPartida" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_ControladorPartida" parent="class_ControladorPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- temporizador: TemporizadorPregunta&#xa;- vista: VistaPartida&#xa;- bus: BusEventosPartida&#xa;- progreso: ProgresoPartida&#xa;- evaluador: EvaluadorRespuestas&#xa;- segundosPuntos: float" vertex="1">
+          <mxGeometry height="112" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_ControladorPartida" parent="class_ControladorPartida" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_ControladorPartida" parent="class_ControladorPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Iniciar(progreso: ProgresoPartida, bus:&#xa;  BusEventosPartida, vista: VistaPartida,&#xa;  segundosPuntos: float): void&#xa;+ Responder(indice: int): void" vertex="1">
+          <mxGeometry height="84" width="436" x="12" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="class_VistaPartida" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="260" width="460" x="4500" y="2560" as="geometry" />
+        </mxCell>
+        <mxCell id="header_VistaPartida" parent="class_VistaPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;VistaPartida" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_VistaPartida" parent="class_VistaPartida" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_VistaPartida" parent="class_VistaPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="—" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_VistaPartida" parent="class_VistaPartida" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_VistaPartida" parent="class_VistaPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ MostrarPregunta(pregunta: PreguntaDatos, numero:&#xa;  int, total: int): void&#xa;+ MostrarTiempo(segundosRestantes: float): void&#xa;+ MostrarEvaluacion(evaluacion: RespuestaEvaluada):&#xa;  void&#xa;+ MostrarPuntos(puntos: int, total: int): void&#xa;+ MostrarFinPartida(segundosTotales: float): void" vertex="1">
+          <mxGeometry height="148" width="436" x="12" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="class_TemporizadorPregunta" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="200" width="460" x="3100" y="3100" as="geometry" />
+        </mxCell>
+        <mxCell id="header_TemporizadorPregunta" parent="class_TemporizadorPregunta" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;TemporizadorPregunta" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_TemporizadorPregunta" parent="class_TemporizadorPregunta" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_TemporizadorPregunta" parent="class_TemporizadorPregunta" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- alMedir: Action&lt;float&gt;&#xa;- ultimaMedicion: double" vertex="1">
+          <mxGeometry height="40" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_TemporizadorPregunta" parent="class_TemporizadorPregunta" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_TemporizadorPregunta" parent="class_TemporizadorPregunta" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Iniciar(leerTiempoRestante: Func&lt;float&gt;, alMedir:&#xa;  Action&lt;float&gt;): void&#xa;+ Medir(): void&#xa;+ Detener(): void" vertex="1">
+          <mxGeometry height="76" width="436" x="12" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="class_EvaluadorRespuestas" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="220" width="460" x="3800" y="3100" as="geometry" />
+        </mxCell>
+        <mxCell id="header_EvaluadorRespuestas" parent="class_EvaluadorRespuestas" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="EvaluadorRespuestas" vertex="1">
+          <mxGeometry height="32" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_EvaluadorRespuestas" parent="class_EvaluadorRespuestas" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_EvaluadorRespuestas" parent="class_EvaluadorRespuestas" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- pregunta: PreguntaDatos {readOnly}&#xa;- bus: BusEventosPartida {readOnly}&#xa;+ TiempoRestante: float&#xa;+ Finalizada: bool" vertex="1">
+          <mxGeometry height="76" width="436" x="12" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_EvaluadorRespuestas" parent="class_EvaluadorRespuestas" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_EvaluadorRespuestas" parent="class_EvaluadorRespuestas" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ EvaluadorRespuestas(pregunta: PreguntaDatos, bus:&#xa;  BusEventosPartida)&#xa;+ Evaluar(indiceElegido: int): void&#xa;+ AvanzarTiempo(segundos: float): void" vertex="1">
+          <mxGeometry height="80" width="436" x="12" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ProgresoPartida" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="300" width="460" x="4500" y="3100" as="geometry" />
+        </mxCell>
+        <mxCell id="header_ProgresoPartida" parent="class_ProgresoPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="ProgresoPartida" vertex="1">
+          <mxGeometry height="32" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_ProgresoPartida" parent="class_ProgresoPartida" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_ProgresoPartida" parent="class_ProgresoPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- preguntas: PreguntaDatos[] {readOnly}&#xa;- indicePregunta: int&#xa;+ PreguntaActual: PreguntaDatos&#xa;+ NumeroPregunta: int&#xa;+ TotalPreguntas: int&#xa;+ PuntosTotales: int&#xa;+ Finalizada: bool&#xa;+ SegundosTotales: float" vertex="1">
+          <mxGeometry height="148" width="436" x="12" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_ProgresoPartida" parent="class_ProgresoPartida" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_ProgresoPartida" parent="class_ProgresoPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ ProgresoPartida(cuestionario: KahootDatos)&#xa;+ RegistrarRespuesta(puntosObtenidos: int,&#xa;  segundosEmpleados: float): void&#xa;+ Avanzar(): bool" vertex="1">
+          <mxGeometry height="88" width="436" x="12" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="class_GuardadorResultadosPartida" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="260" width="460" x="3100" y="3660" as="geometry" />
+        </mxCell>
+        <mxCell id="header_GuardadorResultadosPartida" parent="class_GuardadorResultadosPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="GuardadorResultadosPartida" vertex="1">
+          <mxGeometry height="32" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_GuardadorResultadosPartida" parent="class_GuardadorResultadosPartida" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_GuardadorResultadosPartida" parent="class_GuardadorResultadosPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- repositorio: IRepositorioResultados {readOnly}&#xa;- idCuestionario: string {readOnly}&#xa;- jugador: string {readOnly}&#xa;- registradorErrores: IRegistradorErrores&#xa;  {readOnly}" vertex="1">
+          <mxGeometry height="94" width="436" x="12" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_GuardadorResultadosPartida" parent="class_GuardadorResultadosPartida" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_GuardadorResultadosPartida" parent="class_GuardadorResultadosPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ GuardadorResultadosPartida(repositorio:&#xa;  IRepositorioResultados, idCuestionario: string,&#xa;  jugador: string, registradorErrores:&#xa;  IRegistradorErrores)&#xa;+ Guardar(partida: PartidaTerminada): void" vertex="1">
+          <mxGeometry height="102" width="436" x="12" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="class_BusEventosPartida" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="180" width="460" x="3800" y="3660" as="geometry" />
+        </mxCell>
+        <mxCell id="header_BusEventosPartida" parent="class_BusEventosPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="BusEventosPartida" vertex="1">
+          <mxGeometry height="32" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_BusEventosPartida" parent="class_BusEventosPartida" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_BusEventosPartida" parent="class_BusEventosPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- _subscribers: Dictionary&lt;Type, Delegate&gt;&#xa;  {readOnly}" vertex="1">
+          <mxGeometry height="40" width="436" x="12" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_BusEventosPartida" parent="class_BusEventosPartida" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_BusEventosPartida" parent="class_BusEventosPartida" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Subscribe&lt;T&gt;(listener: Action&lt;T&gt;): void&#xa;+ Unsubscribe&lt;T&gt;(listener: Action&lt;T&gt;): void&#xa;+ Publish&lt;T&gt;(eventData: T): void" vertex="1">
+          <mxGeometry height="76" width="436" x="12" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ConfiguradorCreadorKahoot" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="160" width="460" x="200" y="4960" as="geometry" />
+        </mxCell>
+        <mxCell id="header_ConfiguradorCreadorKahoot" parent="class_ConfiguradorCreadorKahoot" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;ConfiguradorCreadorKahoot" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_ConfiguradorCreadorKahoot" parent="class_ConfiguradorCreadorKahoot" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_ConfiguradorCreadorKahoot" parent="class_ConfiguradorCreadorKahoot" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- vista: VistaCreadorKahoot&#xa;- controlador: ControladorCreadorKahoot" vertex="1">
+          <mxGeometry height="40" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_ConfiguradorCreadorKahoot" parent="class_ConfiguradorCreadorKahoot" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_ConfiguradorCreadorKahoot" parent="class_ConfiguradorCreadorKahoot" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- Start(): void" vertex="1">
+          <mxGeometry height="36" width="436" x="12" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ControladorCreadorKahoot" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="200" width="460" x="900" y="4960" as="geometry" />
+        </mxCell>
+        <mxCell id="header_ControladorCreadorKahoot" parent="class_ControladorCreadorKahoot" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;ControladorCreadorKahoot" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_ControladorCreadorKahoot" parent="class_ControladorCreadorKahoot" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_ControladorCreadorKahoot" parent="class_ControladorCreadorKahoot" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- vista: VistaCreadorKahoot&#xa;- escritor: IEscritorKahoots&#xa;- registradorErrores: IRegistradorErrores" vertex="1">
+          <mxGeometry height="58" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_ControladorCreadorKahoot" parent="class_ControladorCreadorKahoot" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_ControladorCreadorKahoot" parent="class_ControladorCreadorKahoot" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Iniciar(vista: VistaCreadorKahoot, escritor:&#xa;  IEscritorKahoots, registradorErrores:&#xa;  IRegistradorErrores): void" vertex="1">
+          <mxGeometry height="58" width="436" x="12" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="class_VistaCreadorKahoot" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="200" width="460" x="1600" y="4960" as="geometry" />
+        </mxCell>
+        <mxCell id="header_VistaCreadorKahoot" parent="class_VistaCreadorKahoot" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;VistaCreadorKahoot" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_VistaCreadorKahoot" parent="class_VistaCreadorKahoot" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_VistaCreadorKahoot" parent="class_VistaCreadorKahoot" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- listaPreguntas: VistaListaPreguntas&#xa;+ GuardadoSolicitado: Action {event}" vertex="1">
+          <mxGeometry height="40" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_VistaCreadorKahoot" parent="class_VistaCreadorKahoot" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_VistaCreadorKahoot" parent="class_VistaCreadorKahoot" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ ObtenerTitulo(): string&#xa;+ ObtenerPreguntas(): PreguntaDatos[]&#xa;+ MostrarMensaje(mensaje: string, esError: bool):&#xa;  void" vertex="1">
+          <mxGeometry height="76" width="436" x="12" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="class_VistaListaPreguntas" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="160" width="460" x="200" y="5420" as="geometry" />
+        </mxCell>
+        <mxCell id="header_VistaListaPreguntas" parent="class_VistaListaPreguntas" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;VistaListaPreguntas" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_VistaListaPreguntas" parent="class_VistaListaPreguntas" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_VistaListaPreguntas" parent="class_VistaListaPreguntas" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- tarjetaPrefab: TarjetaPregunta&#xa;- tarjetas: List&lt;TarjetaPregunta&gt; {readOnly}" vertex="1">
+          <mxGeometry height="40" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_VistaListaPreguntas" parent="class_VistaListaPreguntas" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_VistaListaPreguntas" parent="class_VistaListaPreguntas" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ ObtenerPreguntas(): PreguntaDatos[]" vertex="1">
+          <mxGeometry height="36" width="436" x="12" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="class_TarjetaPregunta" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="180" width="460" x="900" y="5420" as="geometry" />
+        </mxCell>
+        <mxCell id="header_TarjetaPregunta" parent="class_TarjetaPregunta" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;TarjetaPregunta" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_TarjetaPregunta" parent="class_TarjetaPregunta" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_TarjetaPregunta" parent="class_TarjetaPregunta" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ EliminacionSolicitada: Action&lt;TarjetaPregunta&gt;&#xa;  {event}" vertex="1">
+          <mxGeometry height="40" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_TarjetaPregunta" parent="class_TarjetaPregunta" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_TarjetaPregunta" parent="class_TarjetaPregunta" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ ConfigurarNumero(numero: int): void&#xa;+ ObtenerDatos(): PreguntaDatos" vertex="1">
+          <mxGeometry height="56" width="436" x="12" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ConfiguradorInformes" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="180" width="460" x="3100" y="4960" as="geometry" />
+        </mxCell>
+        <mxCell id="header_ConfiguradorInformes" parent="class_ConfiguradorInformes" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;ConfiguradorInformes" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_ConfiguradorInformes" parent="class_ConfiguradorInformes" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_ConfiguradorInformes" parent="class_ConfiguradorInformes" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- vista: VistaInformes&#xa;- visor: VistaContenidoInforme&#xa;- controlador: ControladorInformes" vertex="1">
+          <mxGeometry height="58" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_ConfiguradorInformes" parent="class_ConfiguradorInformes" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_ConfiguradorInformes" parent="class_ConfiguradorInformes" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- Start(): void" vertex="1">
+          <mxGeometry height="38" width="436" x="12" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ControladorInformes" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="240" width="460" x="3800" y="4960" as="geometry" />
+        </mxCell>
+        <mxCell id="header_ControladorInformes" parent="class_ControladorInformes" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;ControladorInformes" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_ControladorInformes" parent="class_ControladorInformes" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_ControladorInformes" parent="class_ControladorInformes" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- repositorio: IRepositorioInformes&#xa;- vista: VistaInformes&#xa;- visor: VistaContenidoInforme&#xa;- registradorErrores: IRegistradorErrores" vertex="1">
+          <mxGeometry height="76" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_ControladorInformes" parent="class_ControladorInformes" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_ControladorInformes" parent="class_ControladorInformes" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Iniciar(repositorio: IRepositorioInformes, vista:&#xa;  VistaInformes, visor: VistaContenidoInforme,&#xa;  registradorErrores: IRegistradorErrores): void&#xa;+ ActualizarLista(): void" vertex="1">
+          <mxGeometry height="80" width="436" x="12" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="class_VistaInformes" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="200" width="460" x="4500" y="4960" as="geometry" />
+        </mxCell>
+        <mxCell id="header_VistaInformes" parent="class_VistaInformes" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;VistaInformes" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_VistaInformes" parent="class_VistaInformes" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_VistaInformes" parent="class_VistaInformes" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- filaPrefab: FilaInforme&#xa;- filas: List&lt;FilaInforme&gt; {readOnly}&#xa;+ InformeSeleccionado: Action&lt;string&gt; {event}" vertex="1">
+          <mxGeometry height="58" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_VistaInformes" parent="class_VistaInformes" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_VistaInformes" parent="class_VistaInformes" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ MostrarInformes(rutas: string[]): void&#xa;+ MostrarMensaje(mensaje: string): void" vertex="1">
+          <mxGeometry height="58" width="436" x="12" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="class_VistaContenidoInforme" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="160" width="460" x="3100" y="5460" as="geometry" />
+        </mxCell>
+        <mxCell id="header_VistaContenidoInforme" parent="class_VistaContenidoInforme" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;VistaContenidoInforme" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_VistaContenidoInforme" parent="class_VistaContenidoInforme" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_VistaContenidoInforme" parent="class_VistaContenidoInforme" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="—" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_VistaContenidoInforme" parent="class_VistaContenidoInforme" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_VistaContenidoInforme" parent="class_VistaContenidoInforme" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Mostrar(nombre: string, contenido: string): void&#xa;+ Cerrar(): void" vertex="1">
+          <mxGeometry height="48" width="436" x="12" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="class_FilaInforme" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="160" width="460" x="3800" y="5460" as="geometry" />
+        </mxCell>
+        <mxCell id="header_FilaInforme" parent="class_FilaInforme" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;FilaInforme" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_FilaInforme" parent="class_FilaInforme" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_FilaInforme" parent="class_FilaInforme" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- ruta: string&#xa;+ Seleccionado: Action&lt;string&gt; {event}" vertex="1">
+          <mxGeometry height="40" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_FilaInforme" parent="class_FilaInforme" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_FilaInforme" parent="class_FilaInforme" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Configurar(ruta: string): void" vertex="1">
+          <mxGeometry height="36" width="436" x="12" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="class_AvisoInformes" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="160" width="460" x="4500" y="5460" as="geometry" />
+        </mxCell>
+        <mxCell id="header_AvisoInformes" parent="class_AvisoInformes" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="«MonoBehaviour»&#xa;AvisoInformes" vertex="1">
+          <mxGeometry height="52" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_AvisoInformes" parent="class_AvisoInformes" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_AvisoInformes" parent="class_AvisoInformes" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="—" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_AvisoInformes" parent="class_AvisoInformes" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_AvisoInformes" parent="class_AvisoInformes" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ Mostrar(mensaje: string): void&#xa;+ Ocultar(): void" vertex="1">
+          <mxGeometry height="48" width="436" x="12" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="class_GestorErrores" parent="1" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.6;" value="" vertex="1">
+          <mxGeometry height="160" width="460" x="3100" y="5880" as="geometry" />
+        </mxCell>
+        <mxCell id="header_GestorErrores" parent="class_GestorErrores" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#000000;fontStyle=1;align=center;verticalAlign=top;spacing=0;" value="GestorErrores" vertex="1">
+          <mxGeometry height="32" width="452" x="4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line_GestorErrores" parent="class_GestorErrores" style="shape=line;strokeColor=#000000;strokeWidth=1;" vertex="1">
+          <mxGeometry height="1" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="attrs_GestorErrores" parent="class_GestorErrores" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="- registrador: IRegistradorErrores {readOnly}" vertex="1">
+          <mxGeometry height="28" width="436" x="12" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_GestorErrores" parent="class_GestorErrores" style="shape=line;html=0;strokeColor=#000000;strokeWidth=1;direction=east;" value="" vertex="1">
+          <mxGeometry height="1" width="460" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="methods_GestorErrores" parent="class_GestorErrores" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Consolas;fontSize=14;fontColor=#000000;fontStyle=0;align=left;verticalAlign=top;spacing=0;" value="+ GestorErrores(registrador: IRegistradorErrores)&#xa;+ Registrar(operacion: string, error: Exception):&#xa;  void" vertex="1">
+          <mxGeometry height="68" width="436" x="12" y="88" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
